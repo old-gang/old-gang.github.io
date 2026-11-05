@@ -1,0 +1,75 @@
+/* ===================== 鼠标光晕 ===================== */
+.cursor-glow {
+  position: fixed;
+  inset: 0;
+  /* 0 层：在页面底色之上、正文之下（正文层由下方 .VPContent 抬到 1 层） */
+  z-index: 0;
+  opacity: 0;
+  /* 关键：不遮挡链接点击、文本选中和导航交互 */
+  pointer-events: none;
+  transition: opacity 0.45s ease;
+  /* 先给一行兜底值，再用 color-mix 跟随品牌色（改为单一色值时只需改第二行） */
+  background: radial-gradient(
+    420px circle at var(--pointer-x, 50%) var(--pointer-y, 50%),
+    rgba(100, 108, 255, 0.14),
+    transparent 70%
+  );
+  background: radial-gradient(
+    420px circle at var(--pointer-x, 50%) var(--pointer-y, 50%),
+    color-mix(in srgb, var(--vp-c-brand-1) 14%, transparent),
+    transparent 70%
+  );
+}
+
+.cursor-glow.is-active {
+  opacity: 1;
+}
+
+/* 文章页阅读场景下降低存在感 */
+.cursor-glow.is-active.is-subtle {
+  opacity: 0.4;
+}
+
+/*
+ * 默认主题的 .VPContent 没有定位，会被光晕盖住导致正文被染色。
+ * 抬到光晕之上，同时不改变布局（relative 不脱离文档流）。
+ */
+.VPContent {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor-glow {
+    display: none;
+  }
+}
+
+/* ===================== 首页卡片 3D 倾斜 ===================== */
+@media (hover: hover) and (pointer: fine) {
+  /*
+   * 重复三次类名是为了压过默认主题 scoped 样式生成的 .VPFeature[data-v-xxx]，
+   * 否则它自带的 transition 会把这里的 transform 过渡覆盖掉。
+   */
+  .VPFeature.VPFeature.VPFeature {
+    transform: perspective(900px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg));
+    transition:
+      transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+      border-color 0.25s,
+      background-color 0.25s;
+  }
+
+  /* 悬停中过渡时间缩短，卡片才能跟手而不是滞后 */
+  .VPFeature.VPFeature.VPFeature.is-tilting {
+    transition:
+      transform 0.08s linear,
+      border-color 0.25s,
+      background-color 0.25s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .VPFeature.VPFeature.VPFeature {
+    transform: none;
+  }
+}
