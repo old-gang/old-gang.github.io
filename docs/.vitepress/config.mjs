@@ -25,7 +25,10 @@ const frontendSidebarItems = [
   { text: "邂逅 electron", link: "/frontend/electron-basics" },
 ];
 
-const backendSidebarItems = [{ text: "邂逅 Java", link: "/java/java-notes" }];
+const backendSidebarItems = [
+  { text: "邂逅 Java", link: "/java/java-base" },
+  { text: "MySQL", link: "/java/MySQL" },
+];
 
 const toolboxSidebarItems = [
   { text: "Python 学习", link: "/toolbox/python-basics" },
@@ -56,7 +59,7 @@ export default defineConfig({
       },
       {
         text: "后端",
-        link: "/java/java-notes",
+        link: "/java/java-base",
         activeMatch: "^/java/",
       },
       {
