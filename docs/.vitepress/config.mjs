@@ -28,6 +28,7 @@ const frontendSidebarItems = [
 const backendSidebarItems = [
   { text: "邂逅 Java", link: "/java/java-base" },
   { text: "MySQL", link: "/java/MySQL" },
+  { text: "MyBatis", link: "/java/MyBatis" },
 ];
 
 const toolboxSidebarItems = [
