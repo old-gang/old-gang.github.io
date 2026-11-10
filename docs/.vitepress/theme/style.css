@@ -73,3 +73,17 @@
     transform: none;
   }
 }
+
+/* ===================== 语雀导出文字的暗色适配 ===================== */
+/*
+ * 语雀导出时会给大段正文套上 <font style="color:rgb(15, 17, 21);">，
+ * 那是它在浅色主题下的正文色（近黑）。站点切到暗色后底色变深，
+ * 这些文字会几乎看不见，所以暗色下让它们跟随正文颜色。
+ * 只兜住这几种「原本就是正文黑」的取值，红黄蓝等强调色保持原样。
+ */
+html.dark .vp-doc font[style*="rgb(15, 17, 21)"],
+html.dark .vp-doc font[style*="rgb(51, 51, 51)"],
+html.dark .vp-doc font[style*="rgb(64, 64, 64)"],
+html.dark .vp-doc font[style*="#000000"] {
+  color: inherit !important;
+}

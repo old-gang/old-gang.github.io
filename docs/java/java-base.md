@@ -3132,7 +3132,7 @@ public class Test01 {
 
 > 1.什么时候使用匿名内部类:
 >
-> ​ 当简单调用一次接口中的方法,我们就可以使用匿名内部类
+>  当简单调用一次接口中的方法,我们就可以使用匿名内部类
 >
 > 2.将一种格式代表实现类对象或者子类对象来看待,来学习
 >
@@ -3262,7 +3262,7 @@ public class Demo04Exception {
 >
 > 2.原因:对象如果没有用了,GC(垃圾回收器)回收,用来回收堆内存中的垃圾,释放内存,但是有一些对象GC回收不了,比如:连接对象(Connection),IO流对象,Socket对象,这些对象GC回收不了,就需要我们自己手动回收,手动关闭
 >
-> ​ 将来不能回收的对象new完之后,后续操作不管是否操作成功,是否有异常,我们都需要手动关闭,此时我们就可以将关闭资源的代码放到finally中
+>  将来不能回收的对象new完之后,后续操作不管是否操作成功,是否有异常,我们都需要手动关闭,此时我们就可以将关闭资源的代码放到finally中
 >
 > ```java
 > public class Test {
@@ -3668,7 +3668,7 @@ public class Demo01StringBuilder {
 >
 > StringBuilder:拼接效率比StringBuffer高
 >
-> ​ 线程不安全
+>  线程不安全
 >
 > StringBuffer:效率比较底,线程安全
 >
@@ -4167,11 +4167,11 @@ public class Demo04Integer {
 
 > 1.使用场景: 软件中的耗时操作 -> 拷贝大文件, 加载大量的资源
 >
-> ​ 所有的聊天软件
+>  所有的聊天软件
 >
-> ​ 所有的后台服务器
+>  所有的后台服务器
 >
-> ​ 一个线程可以干一件事,我们就可以同时做多件事了,提高了CPU的利用率
+>  一个线程可以干一件事,我们就可以同时做多件事了,提高了CPU的利用率
 
 ## 2.并发和并行
 
@@ -5081,3 +5081,31 @@ public class Demo01ForEach {
 1.增强for遍历集合时,底层实现原理为迭代器
 2.增强for遍历数组时,底层实现原理为普通for
 ```
+
+
+
+# try-with-resource
+
+> 是 Java 用来**自动关闭资源**的语法
+
+## 语法
+
+```java
+try (){}
+// ()内放的是实现了AutoCloseable类
+// 离开各自的 try 代码块时，Java 会自动调用它们的 close()。即使代码块中途抛出异常，也会关闭资源
+```
+
+例如：
+
+```java
+try (InputStream in = Resources.getResourceAsStream("mybatis-config.xml")) {
+  SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(in);
+
+  try (SqlSession sqlSession = factory.openSession()) {
+    int count = sqlSession.insert("insertCar");
+    sqlSession.commit();
+  }
+}
+```
+

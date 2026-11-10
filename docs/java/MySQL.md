@@ -478,8 +478,6 @@ SELECT ENAME FROM EMP;
 - [ ] 任务1：查询所有部门名称。
 - [ ] 任务2：查询所有薪资等级。
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="fDhRz" class="ne-image" style="font-size: 16px">
-
 ### 查多个字段
 
 ---
@@ -681,8 +679,6 @@ where
 
     第三步：最后执行select，查询并将结果展示到控制台
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="rsNYd" class="ne-image" style="font-size: 16px">
-
 ### 等于、不等于
 
 ---
@@ -758,8 +754,6 @@ where
 
 - [ ] **任务：查询工资级别是1的最低工资以及最高工资**
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="lRQDa" class="ne-image" style="font-size: 16px">
-
 #### 不等于 <> 或 !=
 
 判断非等量关系，支持字符串、数字、日期类型等。不等号有两种写法，第一种<>，第二种!=，第二种写法和Java程序中的不等号相同，第一种写法比较诡异，不过也很好理解，比如<>3，表示小于3、大于3，就是不等于3。你get到了吗？
@@ -791,8 +785,6 @@ where
 <img src="https://cdn.nlark.com/yuque/0/2021/png/21376908/1621909394164-d589f9f5-30a1-477c-aef6-b659ae36d9e8.png" width="575" alt="" title="" crop="0,0,1,1" id="X5qgA" class="ne-image" style="font-size: 16px">
 
 - [ ] **任务：查询不在部门编号为10的部门工作的员工信息**
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="K11SR" class="ne-image" style="font-size: 16px">
 
 ### 大于、大于等于、小于、小于等于
 
@@ -858,8 +850,6 @@ where
 
 <img src="https://cdn.nlark.com/yuque/0/2021/png/21376908/1621909895715-9af5ab2f-b445-4b44-a643-fd2a312cac2c.png" width="536" alt="" title="" crop="0,0,1,1" id="ZVSfe" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="jCDHH" class="ne-image" style="font-size: 16px">
-
 ### and
 
 ---
@@ -882,8 +872,6 @@ where
 <img src="https://cdn.nlark.com/yuque/0/2021/png/21376908/1621910577682-f852440b-94f8-4299-89ad-c0a88fefc0d1.png" width="672" alt="" title="" crop="0,0,1,1" id="AyScE" class="ne-image" style="font-size: 16px">
 
 - [ ] **任务：找出工资级别为2~4（包含2和4）的最低工资和最高工资。**
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="bzbRs" class="ne-image" style="font-size: 16px">
 
 ### or
 
@@ -921,8 +909,6 @@ where
 
 - [ ] **任务：查询20和30部门的员工信息。**
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="iXZMp" class="ne-image" style="font-size: 16px">
-
 ### and和or的优先级问题
 
 ---
@@ -958,8 +944,6 @@ where
 <img src="https://cdn.nlark.com/yuque/0/2021/png/21376908/1621912713447-a9b7aeee-4998-4eae-8e53-71353a405890.png" width="539" alt="" title="" crop="0,0,1,1" id="g19B4" class="ne-image" style="font-size: 16px">
 
 - [ ] **任务：找出薪资小于1500的，并且工作岗位是CLERK和SALESMAN的员工姓名、薪资、岗位。**
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="lipgF" class="ne-image" style="font-size: 16px">
 
 ### between...and...
 
@@ -1008,8 +992,6 @@ where
 <img src="https://cdn.nlark.com/yuque/0/2021/png/21376908/1621914250873-25bff9ba-b4e6-4145-a5f8-9036fba35627.png" width="783" alt="" title="" crop="0,0,1,1" id="IPUnM" class="ne-image" style="font-size: 16px">
 
 注意：以上SQL语句中日期需要加上单引号。
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="hSrXt" class="ne-image" style="font-size: 16px">
 
 ### is null、is not null
 
@@ -1065,8 +1047,6 @@ where
 ```
 
 <img src="https://cdn.nlark.com/yuque/0/2021/png/21376908/1621914906515-cfd5351e-22bc-4184-b6d5-785f27049020.png" width="315" alt="" title="" crop="0,0,1,1" id="hC9OP" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="R7KUA" class="ne-image" style="font-size: 16px">
 
 ### in、not in
 
@@ -1160,8 +1140,6 @@ where
 <img src="https://cdn.nlark.com/yuque/0/2021/png/21376908/1621981036376-d6cecc7a-b7b8-4342-a83e-19ee49d77697.png" width="537" alt="" title="" crop="0,0,1,1" id="udgWf" class="ne-image" style="font-size: 16px">
 
 - [ ] 任务：找出薪资不是1600和3000的员工姓名、薪资。
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="BcRjT" class="ne-image" style="font-size: 16px">
 
 #### <font style="color:#F5222D;">in、not in 与 NULL</font>
 
@@ -1349,10 +1327,8 @@ SELECT * FROM t WHERE name = 'a' OR name = 'b' OR name = 'c';
 
 **<font style="color:rgb(15, 17, 21);">执行差异本质</font>**<font style="color:rgb(15, 17, 21);">（无索引时）</font>**<font style="color:rgb(15, 17, 21);">：</font>**
 
-- `<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">IN</font>`<font style="color:rgb(15, 17, 21);">：数据库将</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">('a','b','c')</font>`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">视为一个集合，</font>**<font style="color:rgb(15, 17, 21);">全表扫描一次</font>**<font style="color:rgb(15, 17, 21);">，每行判断</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">name</font>`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">是否在集合内。</font>
-- `<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">OR</font>`<font style="color:rgb(15, 17, 21);">：数据库将条件拆分为三个独立的比较，</font>**<font style="color:rgb(15, 17, 21);">可能扫描三次</font>**<font style="color:rgb(15, 17, 21);">（或生成三个临时结果集再合并去重），I/O 和 CPU 开销更大。</font>
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="LnhKR" class="ne-image" style="font-size: 16px">
+- `IN`<font style="color:rgb(15, 17, 21);">：数据库将</font><font style="color:rgb(15, 17, 21);"> </font>`('a','b','c')`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">视为一个集合，</font>**<font style="color:rgb(15, 17, 21);">全表扫描一次</font>**<font style="color:rgb(15, 17, 21);">，每行判断</font><font style="color:rgb(15, 17, 21);"> </font>`name`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">是否在集合内。</font>
+- `OR`<font style="color:rgb(15, 17, 21);">：数据库将条件拆分为三个独立的比较，</font>**<font style="color:rgb(15, 17, 21);">可能扫描三次</font>**<font style="color:rgb(15, 17, 21);">（或生成三个临时结果集再合并去重），I/O 和 CPU 开销更大。</font>
 
 ### 模糊查询like
 
@@ -1434,8 +1410,6 @@ select * from student where name like '%\_%';
 
 <img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1667523291579-62dc328f-17ef-4e97-a22a-374ade19e797.png" width="635" alt="" title="" crop="0,0,1,1" id="u14f2fd6c" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="UCZP0" class="ne-image" style="font-size: 16px">
-
 ## 排序操作
 
 ---
@@ -1466,8 +1440,6 @@ select empno,ename,sal from emp order by sal desc;
 
 <img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1667524068322-84c1f716-5b7a-4b72-8a41-c0f8ec433d57.png" width="737" alt="" title="" crop="0,0,1,1" id="ub06f2a23" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="ZESrg" class="ne-image" style="font-size: 16px">
-
 ### 默认采用升序
 
 查询员工的编号、姓名、薪资，按照薪资升序排列。
@@ -1485,8 +1457,6 @@ select empno,ename from emp order by ename;
 ```
 
 <img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1667524169552-6abc923e-3638-4a65-ab97-741c22f885fa.png" width="626" alt="" title="" crop="0,0,1,1" id="ubf5dc2c5" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="wfNAq" class="ne-image" style="font-size: 16px">
 
 ### 多个字段排序
 
@@ -1511,8 +1481,6 @@ select ename,sal from emp where job = 'MANAGER' order by sal asc;
 **<font style="color:#E8323C;">通过这个例子主要是想告诉大家：where先执行，order by语句是最后执行的。</font>**
 
 **<font style="color:#E8323C;"></font>**
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="vBTCD" class="ne-image" style="font-size: 16px">
 
 ## distinct去重
 
@@ -1556,8 +1524,6 @@ select ename, distinct job from emp;
 
 <img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1668570891921-9c547b9b-d20e-4695-9704-051863b5e868.png" width="634" alt="" title="" crop="0,0,1,1" id="u755429fe" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="wSTfW" class="ne-image" style="font-size: 16px">
-
 ## 数据处理函数
 
 ---
@@ -1596,8 +1562,6 @@ select ename, job, sal from emp where upper(ename) = 'SMITH';
 ```
 
 <img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1668566360054-6e77882a-21fc-4b6e-9a04-3e0098606db8.png" width="982" alt="" title="" crop="0,0,1,1" id="uf8993c00" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="yjYV7" class="ne-image" style="font-size: 16px">
 
 #### 转小写lower和lcase
 
@@ -1644,8 +1608,6 @@ select ename from emp where substr(ename, 2, 1) = 'A';
 #### 获取字符的个数char_length
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1672736125194-177317bd-f65c-4c05-bda7-f58961b78fd7.png" width="582" alt="" title="" crop="0,0,1,1" id="uKcvT" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="Dm1b0" class="ne-image" style="font-size: 16px">
 
 #### 字符串拼接
 
@@ -1705,8 +1667,6 @@ select trim(both '0' from '000111000');
 
 <img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1668570238062-dff388d3-3106-457d-a9ae-819f41821792.png" width="678" alt="" title="" crop="0,0,1,1" id="uca889e8f" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="XWB5g" class="ne-image" style="font-size: 16px">
-
 ### 数字相关
 
 #### rand()和rand(x)
@@ -1746,8 +1706,6 @@ round(x,y) 四舍五入，保留y位小数
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1672735932932-f0dfc7de-1f77-4eb0-b6e9-b6c6c2ce7ae3.png" width="402" alt="" title="" crop="0,0,1,1" id="ua803b791" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="o815Y" class="ne-image" style="font-size: 16px">
-
 ### 空处理
 
 ifnull(x, y)，空处理函数，当x为NULL时，将x当做y处理。
@@ -1765,8 +1723,6 @@ ifnull(comm, 0)，表示如果员工的津贴是NULL时当做0处理。
 以上查询结果中显示SMITH等人的年薪是NULL，这是为什么，这是因为SMITH等人的津贴comm是NULL，有NULL参与的数学运算，最终结果都是NULL，显然这个需要空处理，此时就用到了ifnull函数：
 
 <img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1669799067232-4896fa47-5c64-409a-b970-dddc31e06050.png" width="982" alt="" title="" crop="0,0,1,1" id="u59b02703" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="JVIRp" class="ne-image" style="font-size: 16px">
 
 ### 日期和时间相关函数
 
@@ -1793,8 +1749,6 @@ now()和sysdate()的区别：
 - current_date()
 - current_date
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="zPT8B" class="ne-image" style="font-size: 16px">
-
 #### 获取当前时间
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1672707856778-8eec2322-c3c8-4ddc-94c4-3e08eea430a8.png" width="430" alt="" title="" crop="0,0,1,1" id="u57a306e4" class="ne-image" style="font-size: 16px">
@@ -1820,8 +1774,6 @@ now()和sysdate()的区别：
 一次性提取一个给定日期的“时分秒”部分，可以使用time()函数，例如：
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1672721340191-9c568184-73b5-4c26-9035-95245016ba4f.png" width="428" alt="" title="" crop="0,0,1,1" id="u0bb5bc88" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="wnX3t" class="ne-image" style="font-size: 16px">
 
 #### date_add函数
 
@@ -1883,8 +1835,6 @@ date_add函数的语法格式：date_add(日期, interval expr 单位)，例如�
 
 '3,2'这个应该很好理解，表示3天2个小时之后。'3,2'和day_hour是对应的。
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="mPekZ" class="ne-image" style="font-size: 16px">
-
 #### date_format日期格式化函数
 
 将日期转换成具有某种格式的日期字符串，通常用在查询操作当中。（date类型转换成char类型）
@@ -1942,8 +1892,6 @@ desc t_student;
 
 如果日期格式符合以上的几种格式，mysql都会自动进行类型转换的。
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="JKuO9" class="ne-image" style="font-size: 16px">
-
 #### dayofweek、dayofmonth、dayofyear函数
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1672719401783-7ea51704-954a-4f96-aa81-3a8da4b34582.png" width="685" alt="" title="" crop="0,0,1,1" id="u1a4c7890" class="ne-image" style="font-size: 16px">
@@ -1974,8 +1922,6 @@ dayofyear：一年中的第几天（1~366）
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1672721193551-f65b470a-9060-4010-b172-b34eb1787e55.png" width="987" alt="" title="" crop="0,0,1,1" id="u56a06c8e" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="d03dU" class="ne-image" style="font-size: 16px">
-
 ### if函数
 
 如果条件为TRUE则返回“YES”，如果条件为FALSE则返回“NO”：
@@ -1999,8 +1945,6 @@ SELECT IF(500<1000, "YES", "NO");
 **<font style="color:#DF2A3F;">上面这个需求也可以使用：case.. when.. then.. when.. then.. else.. end来完成：</font>**
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1672726864928-8206091b-3bd3-4f12-b784-173aff775d6f.png" width="561" alt="" title="" crop="0,0,1,1" id="u37fc5544" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="isi8d" class="ne-image" style="font-size: 16px">
 
 ### cast函数
 
@@ -2034,8 +1978,6 @@ md5函数，可以将给定的字符串经过md5算法进行加密处理，字�
 ```sql
 select md5('abc12345');
 ```
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="TFMeB" class="ne-image" style="font-size: 16px">
 
 ## 分组函数
 
@@ -2126,8 +2068,6 @@ select count(\*),max(sal),min(sal),avg(sal),sum(sal) from emp;
 select ename,job from emp where sal > avg(sal); 这个会报错的
 
 原因：分组的行为是在where执行之后才开始的。【where 执行时还没有进行分组，因此无法使用分组函数/聚合函数。】
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="WFGgY" class="ne-image" style="font-size: 16px">
 
 ## 分组查询
 
@@ -2228,8 +2168,6 @@ order by ...6
 
 重点掌握一个完整的DQL语句执行顺序。
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="YERY5" class="ne-image" style="font-size: 16px">
-
 ## 连接查询
 
 ### 什么是连接查询
@@ -2253,8 +2191,6 @@ order by ...6
       1. 左外连接（左连接）
       2. 右外连接（右连接）
    3. 全连接
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="OZAoT" class="ne-image" style="font-size: 16px">
 
 ### 笛卡尔积现象
 
@@ -2310,8 +2246,6 @@ on
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1677401628377-11f115a0-b961-4e10-b411-97ea04a89035.png" width="279" alt="" title="" crop="0,0,1,1" id="u9ef14890" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="FRC6P" class="ne-image" style="font-size: 16px">
-
 #### 内连接之自连接
 
 连接时，一张表看做两张表，自己和自己进行连接。
@@ -2344,8 +2278,6 @@ on
 可以发现连接条件是：e.mgr = l.empno（员工的领导编号=领导的员工编号）
 
 注意：KING这个员工没有查询出来。如果想将KING也查询出来，需要使用外连接。
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="cfmgX" class="ne-image" style="font-size: 16px">
 
 ### 外连接
 
@@ -2427,8 +2359,6 @@ on
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1677403569294-c9688076-61e2-4e33-bb40-06d4307c6b43.png" width="273" alt="" title="" crop="0,0,1,1" id="ud80e0755" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="CQqy5" class="ne-image" style="font-size: 16px">
-
 ### 全连接
 
 什么是全连接？
@@ -2482,8 +2412,6 @@ on
 ```
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1677404511432-b8fe8eb2-c828-4913-8d7c-a7b47a0ee270.png" width="324" alt="" title="" crop="0,0,1,1" id="u6047af30" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="wfSht" class="ne-image" style="font-size: 16px">
 
 ## 子查询
 
@@ -2540,8 +2468,6 @@ select e.ename,(select d.dname from dept d where e.deptno = d.deptno) as dname f
 ```
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1678063689524-a204a93a-6454-4ff7-a1c6-ac5229edae91.png" width="276" alt="" title="" crop="0,0,1,1" id="u2b69cf05" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="jaXIM" class="ne-image" style="font-size: 16px">
 
 ### exists、not exists
 
@@ -2608,8 +2534,6 @@ select * from t_customer c where not exists(select * from t_order o where o.cust
 
 总之，无论是 EXISTS 还是 NOT EXISTS，都是非常有用的 SQL 工具。可以通过它们来结合子查询来动态过滤查询结果，使 SQL 查询变得更加灵活和高效。
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="p9jQd" class="ne-image" style="font-size: 16px">
-
 ## union&union all
 
 不管是union还是union all都可以将两个查询结果集进行合并。
@@ -2637,8 +2561,6 @@ select ename,sal from emp where job='SALESMAN';
 两个结果集合并时，列数量要相同：
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1678078078467-89b7ba88-52ae-4e70-b5cc-b4fe4a3daf76.png" width="999" alt="" title="" crop="0,0,1,1" id="u85e05b84" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="RDKW6" class="ne-image" style="font-size: 16px">
 
 ## limit
 
@@ -2785,8 +2707,6 @@ select deptno,avg(sal) as avgsal from emp group by deptno having avg(sal)=(selec
 select d.dname,avg(e.sal) as avgsal from emp e join dept d on e.deptno=d.deptno group by d.dname order by avgsal desc limit 1;
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="reey9" class="ne-image" style="font-size: 16px">
-
 ### 第8题
 
 8. 求平均薪水的等级最低的部门的部门名称
@@ -2843,8 +2763,6 @@ select ename,sal from emp order by sal desc limit 5;
 ```sql
 select ename,sal from emp order by sal desc limit 5, 5;
 ```
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="UFFqJ" class="ne-image" style="font-size: 16px">
 
 ### 第12题
 
@@ -2909,8 +2827,6 @@ select deptno, count(*) from emp group by deptno having count(*) >= 5;
 select ename,sal from emp where sal > (select sal from emp where ename = 'SMITH');
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="UHFef" class="ne-image" style="font-size: 16px">
-
 ### 第19题
 
 19. 列出所有"CLERK"(办事员)的姓名及其部门名称,部门的人数
@@ -2963,8 +2879,6 @@ select e.ename,d.dname,e.job from emp e join dept d on e.deptno=d.deptno where j
 select ename,sal,deptno from emp where sal in(select distinct sal from emp where deptno=30) and deptno <> 30;
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="XllLD" class="ne-image" style="font-size: 16px">
-
 ### 第25题
 
 25. 列出薪金高于在部门30工作的所有员工的薪金的员工姓名和薪金.部门名称
@@ -3005,8 +2919,6 @@ select d.deptno,d.dname,d.loc,count(e.deptno) from emp e right join dept d on e.
 select t.job,t.minsal,e.ename from emp e join (select job,min(sal) as minsal from emp group by job) t on e.job=t.job and e.sal=t.minsal;
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="o5vvQ" class="ne-image" style="font-size: 16px">
-
 ### 第30题
 
 30. 列出各个部门的MANAGER(领导)的最低薪金
@@ -3046,8 +2958,6 @@ select d.dname,ifnull(sum(sal),0) as sumsal,count(e.ename) from emp e right join
 ```sql
 update emp set sal=sal*1.1 where datediff(now(),hiredate)/365 > 30;
 ```
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="tbdI1" class="ne-image" style="font-size: 16px">
 
 ### 第35题
 
@@ -3130,8 +3040,6 @@ select a.*,b.avgscore from (select s.sno,s.sname,count(sc.scgrade) as num from s
 select sc.sno,s.sname from sc join s on sc.sno=s.sno where sc.cno=1 and sc.sno in(select sno from sc where cno=2);
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="ceAtz" class="ne-image" style="font-size: 16px">
-
 ## 创建表
 
 语法格式：
@@ -3183,8 +3091,6 @@ drop table if exists 表名;
 
 判断是否存在这个表，如果存在则删除。避免不存在时的报错。
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="ggS7R" class="ne-image" style="font-size: 16px">
-
 ## MySQL数据类型
 
 数据类型（data_type）是指系统中所允许的数据的类型。数据库中的每个列都应该有适当的数据类型，用于限制或允许该列中存储的数据。例如，列中存储的为数字，则相应的数据类型应该为数值类型。
@@ -3231,8 +3137,6 @@ year：1个字节，只存储年，格式 2025
 
 timestamp：4个字节，存储年月日+时分秒，格式：2025-10-11 14:20:15（从公元1970年~公元2038年）或者格式为 <font style="color:#DF2A3F;">20251011142015（采用这种格式不需要使用单引号，当然你使用单引号也可以）</font>
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="TnU3O" class="ne-image" style="font-size: 16px">
-
 ### 字符串类型
 
 #### char
@@ -3243,7 +3147,7 @@ timestamp：4个字节，存储年月日+时分秒，格式：2025-10-11 14:20:1
 
 <font style="color:rgb(51, 51, 51);">例如，CHAR(4) 定义了一个固定长度的字符串列，包含的字符个数最大为 4。当插入的字符长度大于4，则报错（除非超过4个长度之后都是空格字符，则空格字符会自动被删除用来保证插入的成功）。</font>
 
-<font style="color:rgb(51, 51, 51);">但是，在 mysql 提供的 JDBC 驱动中会将查询出的 CHAR 字符串进行自动去除右空白。如果建表指定的是 char(10)，插入是 jack，数据库底层存储的是 </font>`<font style="color:rgb(51, 51, 51);">"jack      "</font>`<font style="color:rgb(51, 51, 51);">，但是 JDBC 查询出来的是 </font>`<font style="color:rgb(51, 51, 51);">"jack"</font>`
+<font style="color:rgb(51, 51, 51);">但是，在 mysql 提供的 JDBC 驱动中会将查询出的 CHAR 字符串进行自动去除右空白。如果建表指定的是 char(10)，插入是 jack，数据库底层存储的是 </font>`"jack      "`<font style="color:rgb(51, 51, 51);">，但是 JDBC 查询出来的是 </font>`"jack"`
 
 #### varchar
 
@@ -3298,8 +3202,6 @@ BLOB类型：二进制大对象（Binary Large OBject），可以存储图片、
 - blob：小的，最大长度65535个字节
 - mediumblob：中等的，最大长度16777215个字节
 - longblob：大的，最大长度4GB的字节
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="V6Oj0" class="ne-image" style="font-size: 16px">
 
 ### JSON 类型
 
@@ -3411,8 +3313,6 @@ SELECT JSON_LENGTH('[1,2,3,4]');     -- 4
 SELECT JSON_KEYS('{"a":1, "b":2}');  -- ["a", "b"]
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="hgNzq" class="ne-image" style="font-size: 16px">
-
 ## 增删改表结构DDL
 
 ### 创建一个学生表
@@ -3461,8 +3361,6 @@ alter table 表名 modify column 字段名 数据类型;
 ```sql
 alter table 表名 drop 字段名;
 ```
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="PmH7I" class="ne-image" style="font-size: 16px">
 
 ## DML语句
 
@@ -3521,8 +3419,6 @@ update 表名 set 字段名1=值1, 字段名2=值2, 字段名3=值3 where 条件
 ```
 
 如果没有更新条件的话，所有记录全部更新。
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="Ar0sg" class="ne-image" style="font-size: 16px">
 
 ## 约束constraint
 
@@ -3610,8 +3506,6 @@ create table t_stu(
 
 所有的约束都存储在一个系统表当中：**table_constraints**。这个系统表在这个数据库当中：**information_schema**
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="dY5B0" class="ne-image" style="font-size: 16px">
-
 ### 主键约束
 
 1. 主键：primary key，简称PK
@@ -3656,8 +3550,6 @@ create table t_vip(
   name varchar(255)
 );
 ```
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="Ta45G" class="ne-image" style="font-size: 16px">
 
 ### 外键约束
 
@@ -3752,8 +3644,6 @@ create table t_student(
 );
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="CeGw8" class="ne-image" style="font-size: 16px">
-
 ## 数据库设计三范式
 
 ### 什么是数据库设计三范式
@@ -3792,8 +3682,6 @@ create table t_student(
     2. 以下这种方式就是符合第三范式的：
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1679202402829-5040060c-c87f-4411-a599-6a60cc3836a0.png" width="325" alt="" title="" crop="0,0,1,1" id="u5495ef35" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="Bg58q" class="ne-image" style="font-size: 16px">
 
 ### 一对多怎么设计
 
@@ -3835,15 +3723,13 @@ create table t_student(
 
 **<font style="color:#DF2A3F;">为什么会带来额外的锁开销？</font>**
 
-**<font style="color:rgb(15, 17, 21);">因为删除主表数据时，会把关联的子表数据锁住，这个锁是一个间隙锁，比如要删除的是主表 </font>**`**<font style="color:rgb(15, 17, 21);">id=100</font>**`**<font style="color:rgb(15, 17, 21);">的数据，那么对于子表来说，凡是和 </font>**`**<font style="color:rgb(15, 17, 21);">id=100</font>**`**<font style="color:rgb(15, 17, 21);">相关的数据都无法插入，以防产生孤儿数据。</font>**
+**<font style="color:rgb(15, 17, 21);">因为删除主表数据时，会把关联的子表数据锁住，这个锁是一个间隙锁，比如要删除的是主表 </font>**`id=100`**<font style="color:rgb(15, 17, 21);">的数据，那么对于子表来说，凡是和 </font>**`id=100`**<font style="color:rgb(15, 17, 21);">相关的数据都无法插入，以防产生孤儿数据。</font>**
 
 | **<font style="color:rgb(15, 17, 21);">应用场景</font>**            | **<font style="color:rgb(15, 17, 21);">是否使用外键</font>** | **<font style="color:rgb(15, 17, 21);">原因</font>**                                                                                                                                                             |
 | ------------------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **<font style="color:rgb(15, 17, 21);">传统企业/金融/ERP</font>**   | **<font style="color:rgb(15, 17, 21);">经常使用</font>**     | <font style="color:rgb(15, 17, 21);">强事务、低并发、数据一致性要求极高，可接受性能损失。</font>                                                                                                                 |
 | **<font style="color:rgb(15, 17, 21);">互联网高并发业务</font>**    | **<font style="color:rgb(15, 17, 21);">基本不用</font>**     | <font style="color:rgb(15, 17, 21);">性能第一，通过应用层（</font>**<font style="color:rgb(15, 17, 21);">Service 中编写代码</font>**<font style="color:rgb(15, 17, 21);">）保证一致性，数据库做单纯存储。</font> |
 | **<font style="color:rgb(15, 17, 21);">分库分表/分布式系统</font>** | **<font style="color:rgb(15, 17, 21);">完全不用</font>**     | <font style="color:rgb(15, 17, 21);">架构层面不支持，根本无法使用。</font>                                                                                                                                       |
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="nBVbE" class="ne-image" style="font-size: 16px">
 
 ## 视图
 
@@ -3854,7 +3740,7 @@ create table t_student(
 **<font style="color:rgb(15, 17, 21);">核心概念</font>**<font style="color:rgb(15, 17, 21);">：</font>
 
 - **<font style="color:rgb(15, 17, 21);">逻辑存在，物理不存储</font>**<font style="color:rgb(15, 17, 21);">：视图只保存查询逻辑，不占用存储数据所在的空间。</font>
-- **<font style="color:rgb(15, 17, 21);">像表一样使用</font>**<font style="color:rgb(15, 17, 21);">：你可以对视图进行查询（通常也可以进行有限的增删改操作），把它当作一张表来写</font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">SELECT</font>`<font style="color:rgb(15, 17, 21);">语句。</font>
+- **<font style="color:rgb(15, 17, 21);">像表一样使用</font>**<font style="color:rgb(15, 17, 21);">：你可以对视图进行查询（通常也可以进行有限的增删改操作），把它当作一张表来写</font>`SELECT`<font style="color:rgb(15, 17, 21);">语句。</font>
 - **<font style="color:rgb(15, 17, 21);">实时反映底层数据</font>**<font style="color:rgb(15, 17, 21);">：因为视图每次查询都重新执行SQL，所以底层表数据变化后，你下次查视图看到的就是最新数据。</font>
 
 ### <font style="color:rgb(15, 17, 21);">视图的使用</font>
@@ -3974,18 +3860,16 @@ DROP INDEX idx_a_b_c ON t_user;
 
 <font style="color:rgb(15, 17, 21);">索引在以下常见情况下会失效（MySQL无法使用索引进行高效查询）：</font>
 
-- **<font style="color:rgb(15, 17, 21);">对索引列使用函数或表达式</font>**<font style="color:rgb(15, 17, 21);">：如</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">WHERE YEAR(date) = 2023</font>`<font style="color:rgb(15, 17, 21);">（应改为</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">date BETWEEN '2023-01-01' AND '2023-12-31'</font>`<font style="color:rgb(15, 17, 21);">）</font>
-- **<font style="color:rgb(15, 17, 21);">隐式类型转换</font>**<font style="color:rgb(15, 17, 21);">：如</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">WHERE phone = 13800138000</font>`<font style="color:rgb(15, 17, 21);">（phone 是 VARCHAR 字段，应加引号）</font>
-- **<font style="color:rgb(15, 17, 21);">使用 LIKE 以通配符开头</font>**<font style="color:rgb(15, 17, 21);">：如</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">WHERE name LIKE '%jack'</font>`<font style="color:rgb(15, 17, 21);">（前缀</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">%</font>`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">会导致失效；</font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">'jack%'</font>`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">则有效）</font>
+- **<font style="color:rgb(15, 17, 21);">对索引列使用函数或表达式</font>**<font style="color:rgb(15, 17, 21);">：如</font><font style="color:rgb(15, 17, 21);"> </font>`WHERE YEAR(date) = 2023`<font style="color:rgb(15, 17, 21);">（应改为</font><font style="color:rgb(15, 17, 21);"> </font>`date BETWEEN '2023-01-01' AND '2023-12-31'`<font style="color:rgb(15, 17, 21);">）</font>
+- **<font style="color:rgb(15, 17, 21);">隐式类型转换</font>**<font style="color:rgb(15, 17, 21);">：如</font><font style="color:rgb(15, 17, 21);"> </font>`WHERE phone = 13800138000`<font style="color:rgb(15, 17, 21);">（phone 是 VARCHAR 字段，应加引号）</font>
+- **<font style="color:rgb(15, 17, 21);">使用 LIKE 以通配符开头</font>**<font style="color:rgb(15, 17, 21);">：如</font><font style="color:rgb(15, 17, 21);"> </font>`WHERE name LIKE '%jack'`<font style="color:rgb(15, 17, 21);">（前缀</font><font style="color:rgb(15, 17, 21);"> </font>`%`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">会导致失效；</font>`'jack%'`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">则有效）</font>
 - **<font style="color:rgb(15, 17, 21);">使用 OR 条件</font>**<font style="color:rgb(15, 17, 21);">：如果 OR 连接的字段不全是索引字段，索引可能失效</font>
 - **<font style="color:rgb(15, 17, 21);">使用 NOT IN、<>、!= 或 IS NOT NULL</font>**<font style="color:rgb(15, 17, 21);">：这些范围取反操作通常会导致全表扫描</font>
 - **<font style="color:rgb(15, 17, 21);">使用 ORDER BY 方向不一致</font>**<font style="color:rgb(15, 17, 21);">：多列排序时，方向不一致可能无法利用索引（</font>**<font style="color:rgb(15, 17, 21);">要么都升序，要么都降序，索引不失效</font>**<font style="color:rgb(15, 17, 21);">）</font>
-- **<font style="color:rgb(15, 17, 21);">使用复合索引未遵循最左前缀法则</font>**<font style="color:rgb(15, 17, 21);">：如索引</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">(a,b,c)</font>`<font style="color:rgb(15, 17, 21);">，但查询条件只用了</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">b</font>`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">或</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">c</font>`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">而不包含</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">a</font>`
+- **<font style="color:rgb(15, 17, 21);">使用复合索引未遵循最左前缀法则</font>**<font style="color:rgb(15, 17, 21);">：如索引</font><font style="color:rgb(15, 17, 21);"> </font>`(a,b,c)`<font style="color:rgb(15, 17, 21);">，但查询条件只用了</font><font style="color:rgb(15, 17, 21);"> </font>`b`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">或</font><font style="color:rgb(15, 17, 21);"> </font>`c`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">而不包含</font><font style="color:rgb(15, 17, 21);"> </font>`a`
 - **<font style="color:rgb(15, 17, 21);">数据分布不均</font>**<font style="color:rgb(15, 17, 21);">：当 MySQL 认为全表扫描比索引更快时（如查询表中大部分数据），会主动放弃索引</font>
 
 <font style="color:rgb(15, 17, 21);">最核心原则：</font>**<font style="color:rgb(15, 17, 21);">索引失效的本质是 MySQL 无法利用索引的有序结构进行快速定位，只能退化为全表扫描。</font>**
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="pOxXB" class="ne-image" style="font-size: 16px">
 
 ## 事务
 
@@ -4027,8 +3911,6 @@ show variables like '%变量名%';
 show variables like '%commit%';
 show variables like '%char%';
 ```
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="WBnCx" class="ne-image" style="font-size: 16px">
 
 ### 事务隔离级别
 
@@ -4093,8 +3975,6 @@ set global transaction isolation level read uncommitted;
 | mysql> select \* from a;<br/><img src="https://cdn.nlark.com/yuque/0/2024/png/21376908/1709003545498-a496e1be-74fd-4e63-9ef0-d6e21b88a7cd.png" width="289" alt="" title="" crop="0,0,1,1" id="uebb288b9" class="ne-image" style="font-size: 16px"> |                                 |
 
 通过以上测试，可以看到，A事务读取到了B事务还没有提交的数据。这种现象就是脏读。
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="l06hR" class="ne-image" style="font-size: 16px">
 
 ##### 读提交（READ COMMITTED）
 
@@ -4178,8 +4058,6 @@ set global transaction isolation level repeatable read;
 通过以上测试得知：**<font style="color:#DF2A3F;">当事务隔离级别设置为可重复读，MySQL会尽最大努力避免幻读问题，但这种隔离级别无法完全避免幻读问题。</font>**
 
 **<font style="color:#DF2A3F;"></font>**
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="tni1R" class="ne-image" style="font-size: 16px">
 
 ##### 串行化（SERIALIZABLE）
 
@@ -4348,8 +4226,6 @@ A事务与B事务。在A事务中第一次查询使用快照读，B事务插入�
 |                                                                                                                                                                                                                                                                                             | mysql> commit;                  |
 | mysql> select \* from a;<font style="color:#DF2A3F;"> //快照读</font><br/><img src="https://cdn.nlark.com/yuque/0/2024/png/21376908/1709006362804-0579079b-e054-4299-b1ab-6c16a68875f0.png" width="297" alt="" title="" crop="0,0,1,1" id="sxE0q" class="ne-image" style="font-size: 16px"> |                                 |
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="iUzfr" class="ne-image" style="font-size: 16px">
-
 #### 当前读是如何解决幻读的
 
 **大概总结一下当前讲义中的\*\***<font style="color:#DF2A3F;">锁</font>\***\*：**
@@ -4365,11 +4241,11 @@ A事务与B事务。在A事务中第一次查询使用快照读，B事务插入�
 
 select...for update原理是：对查询范围内的数据进行加锁，不允许其它事务对这个范围内的数据进行增删改。也就是说这个select语句范围内的数据是不允许并发的，只能排队执行，从而避免幻读问题。
 
-`**<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">FOR UPDATE</font>**`**<font style="color:rgb(15, 17, 21);"> 是行级排他锁，但前提是查询条件用到的字段上有索引（主键、唯一索引、普通索引都可以）。如果没有索引或索引失效，会退化为表级锁</font>**
+`FOR UPDATE`**<font style="color:rgb(15, 17, 21);"> 是行级排他锁，但前提是查询条件用到的字段上有索引（主键、唯一索引、普通索引都可以）。如果没有索引或索引失效，会退化为表级锁</font>**
 
 select...for update加的锁叫做：next-key lock。我们可以称其为：间隙锁 + 记录锁。间隙锁用来保证在锁定的范围内不允许insert操作。记录锁用来保证在锁定的范围内不允许delete和update操作。
 
-`**<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">FOR UPDATE</font>**`**<font style="color:rgb(15, 17, 21);"> 在 RR 级别下默认加 Next-Key Lock（间隙锁 + 记录锁）来防止幻读，在 RC 级别下只加记录锁。</font>**
+`FOR UPDATE`**<font style="color:rgb(15, 17, 21);"> 在 RR 级别下默认加 Next-Key Lock（间隙锁 + 记录锁）来防止幻读，在 RC 级别下只加记录锁。</font>**
 
 ```sql
 -- 表 t_user 有 id 主键（主键上自动有唯一索引）
@@ -4405,8 +4281,6 @@ select * from a where id between 2 and 4 for update;
 | mysql> select \* from a where id between 2 and 4 for update; <font style="color:#DF2A3F;">// 当前读</font> |                                                                                                                                   |
 |                                                                                                            | mysql> insert into a values(3); // 不可以<br/>mysql> insert into a values(5); // 可以<br/>mysql> insert into a values(0); // 可以 |
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="FTmVI" class="ne-image" style="font-size: 16px">
-
 ## 常用 DBA 命令
 
 ### 新建用户
@@ -4432,8 +4306,6 @@ create user 'java2'@'%' identified by '123';
 ```sql
 select user,host from mysql.user;
 ```
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="T74HM" class="ne-image" style="font-size: 16px">
 
 ### 给用户授权
 
@@ -4495,8 +4367,6 @@ revoke insert on test.* from 'java2'@'%'
 
 <font style="color:rgb(51, 51, 51);"></font>
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="hqanW" class="ne-image" style="font-size: 16px">
-
 ### 修改用户的密码
 
 具有管理用户权限的用户才能修改密码，例如root账户可以修改其他账户的密码：
@@ -4533,8 +4403,6 @@ drop user 'java2'@'%';
 ```
 
 flush privileges;
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="XbSoi" class="ne-image" style="font-size: 16px">
 
 ### 数据备份
 
@@ -4609,8 +4477,6 @@ select name from t_student group by name having min(fenshu) > 80;
 
 <img src="https://cdn.nlark.com/yuque/0/2026/png/21376908/1779972742699-198f71c9-a6aa-4d6a-976c-26a080a7b936.png" width="720" alt="" title="" crop="0,0,1,1" id="ufd751527" class="ne-image">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="sdr9X" class="ne-image" style="font-size: 16px">
-
 ### 第二题
 
 <img src="https://cdn.nlark.com/yuque/0/2023/jpeg/21376908/1680103877015-ca07133d-716e-4cce-82f3-52118ff4c9ad.jpeg" width="615" alt="" title="" crop="0,0,1,1" id="u0043cb44" class="ne-image" style="font-size: 16px">
@@ -4664,8 +4530,6 @@ where g_cardapplydetail.g_idcard = '440401430103082';
 delete t1,t2 from g_cardapply t1 join g_cardapplydetail t2 on t1.g_applyno=t2.g_applyno where t2.g_name like '李%';
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="pGUpC" class="ne-image" style="font-size: 16px">
-
 ### 第三题
 
 <img src="https://cdn.nlark.com/yuque/0/2023/jpeg/21376908/1680142491993-8e350bec-9af7-4304-b7d6-92f2f313997e.jpeg" width="852" alt="" title="" crop="0,0,1,1" id="u22aaff9c" class="ne-image" style="font-size: 16px">
@@ -4696,8 +4560,6 @@ from stuscore;
 select name, avg(score) from stuscore group by name having min(score) > 60;
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="xUy2W" class="ne-image" style="font-size: 16px">
-
 ### 第四题
 
 <img src="https://cdn.nlark.com/yuque/0/2023/jpeg/21376908/1680144969653-7096e822-b1e5-44d4-bc34-55dacc9322b4.jpeg?x-oss-process=image/auto-orient,1" width="852" alt="" title="" crop="0,0,1,1" id="u9a38f7f2" class="ne-image" style="font-size: 16px">
@@ -4717,8 +4579,6 @@ select dname,avg(sal) from wcmemploy where job='钳工' group by dname;
 ```sql
 select dname,avg(sal) from wcmemploy where job='钳工' group by dname having avg(sal) > 2000;
 ```
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="COZ71" class="ne-image" style="font-size: 16px">
 
 ### 第五题
 
@@ -4807,8 +4667,6 @@ select `person-name` from works where salary > (select max(salary) from works wh
 select `company-name`, avg(salary) from works group by `company-name` having avg(salary) > 10000;
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="jVZfI" class="ne-image" style="font-size: 16px">
-
 ### 第六题
 
 <img src="https://cdn.nlark.com/yuque/0/2023/jpeg/21376908/1680399293078-ccb0ac3b-7273-4308-8f01-12705c3ed1fd.jpeg" width="768" alt="" title="" crop="0,0,1,1" id="u2b567848" class="ne-image" style="font-size: 16px"><img src="https://cdn.nlark.com/yuque/0/2023/jpeg/21376908/1680399293094-1a4ca298-63ad-48db-9e8b-27ce4a6846a2.jpeg" width="1280" alt="" title="" crop="0,0,1,1" id="u5a98a01b" class="ne-image" style="font-size: 16px">
@@ -4833,10 +4691,8 @@ select `company-name`, avg(salary) from works group by `company-name` having avg
 2. 请写出一条SQL语句，查询出每个客户订购的图书总价。要求输出格式为：client_name total_price
 3. 如果要求每个订单可以包含多种图书，应该如何修改Order表的主键？为了保证每个订单只被一个客户拥有，应该在ClientOrder表上增加怎样的约束？
 
-- **<font style="color:rgb(15, 17, 21);">Order表主键修改</font>**<font style="color:rgb(15, 17, 21);">：将</font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">order_id</font>`<font style="color:rgb(15, 17, 21);">单独作为主键无法满足“一个订单包含多种图书”，应改为</font>**<font style="color:rgb(15, 17, 21);">复合主键</font>**`**<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">(order_id, book_id)</font>**`<font style="color:rgb(15, 17, 21);">。</font>
-- **<font style="color:rgb(15, 17, 21);">ClientOrder表约束</font>**<font style="color:rgb(15, 17, 21);">：为保证每个订单只被一个客户拥有，</font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">order_id</font>`<font style="color:rgb(15, 17, 21);">字段设置</font>**<font style="color:rgb(15, 17, 21);">唯一约束</font>**<font style="color:rgb(15, 17, 21);">。</font>
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="IT3Xm" class="ne-image" style="font-size: 16px">
+- **<font style="color:rgb(15, 17, 21);">Order表主键修改</font>**<font style="color:rgb(15, 17, 21);">：将</font>`order_id`<font style="color:rgb(15, 17, 21);">单独作为主键无法满足“一个订单包含多种图书”，应改为</font>**<font style="color:rgb(15, 17, 21);">复合主键</font>**`(order_id, book_id)`<font style="color:rgb(15, 17, 21);">。</font>
+- **<font style="color:rgb(15, 17, 21);">ClientOrder表约束</font>**<font style="color:rgb(15, 17, 21);">：为保证每个订单只被一个客户拥有，</font>`order_id`<font style="color:rgb(15, 17, 21);">字段设置</font>**<font style="color:rgb(15, 17, 21);">唯一约束</font>**<font style="color:rgb(15, 17, 21);">。</font>
 
 ### 第七题
 
@@ -4873,8 +4729,6 @@ select sc.`s#` from sc where sc.`c#` = 1 and sc.score > (select a.score from sc 
 4. 查询姓“李”的老师的个数。
 5. 查询没学过“叶平”老师课的学号、姓名。
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="eEycP" class="ne-image" style="font-size: 16px">
-
 ### 第八题
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1680403650729-b44beed8-c599-4077-8f43-8f862b94bfcd.png" width="603" alt="" title="" crop="0,0,1,1" id="DrAUb" class="ne-image" style="font-size: 16px">
@@ -4894,8 +4748,6 @@ select sc.`s#` from sc where sc.`c#` = 1 and sc.score > (select a.score from sc 
 1. 没有选修课程编号为C1的学生姓名
 2. 列出每门课程名称和平均成绩，并按照成绩排序
 3. 选了2门课以上的学生姓名。
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="Z7Pe2" class="ne-image" style="font-size: 16px">
 
 ### 第九题
 
@@ -4934,8 +4786,6 @@ MySQL行转列又叫做**<font style="color:#DF2A3F;">数据透视</font>**。�
 | 王五     | 88   | 90   | 95   |
 
 从上表中可以看出，在行转列之后，每一行记录都表示了一个学生在不同课程中的分数。这样更便于对不同科目的分数进行比较、计算平均值等分析操作。
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="fPhWC" class="ne-image" style="font-size: 16px">
 
 #### 使用case when+group by完成
 
@@ -4994,8 +4844,6 @@ group by
 	year;
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="GTu1z" class="ne-image" style="font-size: 16px">
-
 ### 第十题
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1680403550525-8f28573a-a583-4aaa-9e91-b5dde5ffa2f3.png" width="578" alt="" title="" crop="0,0,1,1" id="YlEzc" class="ne-image" style="font-size: 16px">
@@ -5041,12 +4889,12 @@ select empno,ename,sal,(lag(sal) over(order by sal asc)) as pre_sal from emp;
 
 **<font style="color:rgb(15, 17, 21);">窗口就是“在不让行消失的前提下，给每一行开一个‘小窗’，能看到它前后几行的数据”。</font>**
 
-<font style="color:rgb(15, 17, 21);">普通</font><font style="color:rgb(15, 17, 21);"> </font>`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">GROUP BY</font>`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">的问题是：数据会</font>**<font style="color:rgb(15, 17, 21);">被压缩成一行</font>**<font style="color:rgb(15, 17, 21);">。</font><font style="color:rgb(15, 17, 21);">  
+<font style="color:rgb(15, 17, 21);">普通</font><font style="color:rgb(15, 17, 21);"> </font>`GROUP BY`<font style="color:rgb(15, 17, 21);"> </font><font style="color:rgb(15, 17, 21);">的问题是：数据会</font>**<font style="color:rgb(15, 17, 21);">被压缩成一行</font>**<font style="color:rgb(15, 17, 21);">。</font><font style="color:rgb(15, 17, 21);">  
 </font><font style="color:rgb(15, 17, 21);">例如按部门分组求平均工资，你只能得到“部门→平均工资”，看不到每个员工自己的工资了。</font>
 
 <font style="color:rgb(15, 17, 21);">窗口函数不同：</font>**<font style="color:rgb(15, 17, 21);">每一行都保留</font>**<font style="color:rgb(15, 17, 21);">，同时又能拿到“整组”或“前后行”的信息。</font>
 
-`<font style="color:rgb(15, 17, 21);background-color:rgb(235, 238, 242);">OVER()</font>`<font style="color:rgb(15, 17, 21);"> 就是用来定义 </font>**<font style="color:rgb(15, 17, 21);">这个“窗口范围”</font>**<font style="color:rgb(15, 17, 21);"> 的语法。</font>
+`OVER()`<font style="color:rgb(15, 17, 21);"> 就是用来定义 </font>**<font style="color:rgb(15, 17, 21);">这个“窗口范围”</font>**<font style="color:rgb(15, 17, 21);"> 的语法。</font>
 
 ```sql
 SELECT ename, sal, AVG(sal) from emp;  -- 错误
@@ -5072,8 +4920,6 @@ select empno,ename,sal,(row_number() over(order by sal)) as rownum from emp;
 ```
 
 <img src="https://cdn.nlark.com/yuque/0/2023/png/21376908/1688372778734-b8b7d759-d86d-43d5-807a-8447c8de7da4.png" width="321" alt="" title="" crop="0,0,1,1" id="u33ad221d" class="ne-image" style="font-size: 16px">
-
-<img src="https://cdn.nlark.com/yuque/0/2025/jpeg/21376908/1757681056420-39d1bc52-55fe-4f3b-8183-b4d7ba79b166.jpeg" width="4308" alt="" title="" crop="0,0,1,1" id="ozHMA" class="ne-image" style="font-size: 16px">
 
 利用row_number函数，将两个不相关的列拼接在一起显示：
 

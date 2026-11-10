@@ -3449,7 +3449,7 @@ defineProps<Props>();
 
 ### 10. vuex
 
-```j
+```js
 1). 实现任意组件间通信
 2). Vuex 是一个专为 Vue 应用程序设计的管理多组件共享状态数据的 Vue 插件
     任意组件都可以读取到Vuex中store的state对象中的数据

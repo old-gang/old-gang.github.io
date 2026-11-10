@@ -103,4 +103,15 @@ export default defineConfig({
       },
     },
   },
+  // 笔记是从语雀导出的，正文里大量使用 <font style="color:..."> 做重点着色。
+  // Vue 的内置 HTML 标签白名单里没有 font，会把它当成未注册的自定义组件，
+  // 结果整段文字被丢弃（构建产物里只剩 <!---->）。
+  // 这里把 font 声明为原生元素，让浏览器按 HTML 正常渲染并保留内部文字与颜色。
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tagName) => tagName === "font",
+      },
+    },
+  },
 });
