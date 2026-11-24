@@ -29,6 +29,7 @@ const backendSidebarItems = [
   { text: "邂逅 Java", link: "/java/java-base" },
   { text: "MySQL", link: "/java/MySQL" },
   { text: "MyBatis", link: "/java/MyBatis" },
+  { text: "Spring", link: "/java/Spring" },
 ];
 
 const toolboxSidebarItems = [
@@ -90,6 +91,10 @@ export default defineConfig({
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/old-gang" }],
+
+    // 右侧标题目录默认只显示 h2 ~ h3，deep 会一直展开到 h6。
+    outline: { level: "deep" },
+
     search: {
       provider: "local",
     },

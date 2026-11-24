@@ -16,7 +16,7 @@
 
 **MyBatis 属于持久层框架**。类似的框架还有：Hibernate（实现了JPA规范）、jOOQ、Guzz、**Spring Data（实现了JPA规范）**、ActiveJDBC
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1749727730298-3fbf26a7-40a4-4ee2-bd8b-6ed01adec552.png" width="692" title="" crop="0,0,1,1" id="u9aae96fe" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1749727730298-3fbf26a7-40a4-4ee2-bd8b-6ed01adec552.png" width="692" title="" crop="0,0,1,1" id="u9aae96fe" class="ne-image" style="font-size: 16px">
 
 ## JDBC不足
 
@@ -129,7 +129,7 @@ R（Relational）：关系型数据库
 
 M（Mapping）：将 JVM 中的Java对象映射到数据库表中一行记录，或是将数据库表中一行记录映射成 JVM 中的一个Java对象。
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763606101813-cd8f22c4-4b7e-485b-81b8-4558b87745d0.png" width="581.4000244140625" title="" crop="0,0,1,1" id="u7be59ce3" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763606101813-cd8f22c4-4b7e-485b-81b8-4558b87745d0.png" width="581.4000244140625" title="" crop="0,0,1,1" id="u7be59ce3" class="ne-image" style="font-size: 16px">
 
 # MyBatis入门程序
 
@@ -141,9 +141,9 @@ MyBatis 中文文档地址：[https://mybatis.org/mybatis-3/zh_CN/index.html](ht
 
 字节码 jar 包不需要下载，我们用 Maven 引入依赖即可。需要源码的可以从这里下载。[https://github.com/mybatis/mybatis-3](https://github.com/mybatis/mybatis-3)
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763607495012-be877c81-7b0b-4872-a081-47f322629dde.png" width="921.6" title="" crop="0,0,1,1" id="ud6017f0b" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763607495012-be877c81-7b0b-4872-a081-47f322629dde.png" width="921.6" title="" crop="0,0,1,1" id="ud6017f0b" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763607545153-53bc5340-2312-456d-8552-986ba054c2f9.png" width="926.4" title="" crop="0,0,1,1" id="u532a3cf9" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763607545153-53bc5340-2312-456d-8552-986ba054c2f9.png" width="926.4" title="" crop="0,0,1,1" id="u532a3cf9" class="ne-image" style="font-size: 16px">
 
 ## MyBatis入门程序开发步骤
 
@@ -151,7 +151,7 @@ MyBatis 中文文档地址：[https://mybatis.org/mybatis-3/zh_CN/index.html](ht
 
 **创建数据库** `mybatis`
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1743559916175-57d4d771-3de7-4994-9364-6121af83577d.png" width="424" title="" crop="0,0,1,1" id="U40Df" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1743559916175-57d4d771-3de7-4994-9364-6121af83577d.png" width="424" title="" crop="0,0,1,1" id="U40Df" class="ne-image" style="font-size: 16px">
 
 **执行 SQL 脚本：**
 
@@ -410,7 +410,7 @@ public class CarMapperTest {
 
 它就是 MyBatis **内置**的一个“日志打印器”，而不是一个独立的第三方日志框架。它本质上就是一个“让 MyBatis 用 `System.out.println` 把 SQL 打印到控制台”的快速开关，而不是一个功能完整的日志框架。如果在开发中，想要快速打印 SQL 日志，这是一个最便捷的方案。当然，如果你需要集成第三方真正的日志框架，那也超级简单，只需要把日志框架添加到 classpath 中即可，mybatis 运行时会自动检查 classpath 中是否存在具体的日志框架，如果存在则直接使用你提供的。日志框架的查找顺序官方文档有说明：
 
-<img src="https://cdn.nlark.com/yuque/0/2026/png/21376908/1782741619907-2992578e-d34d-4dca-8108-2f0fa790c543.png" width="1028.8" title="" crop="0,0,1,1" id="uf0882608" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1782741619907-2992578e-d34d-4dca-8108-2f0fa790c543.png" width="1028.8" title="" crop="0,0,1,1" id="uf0882608" class="ne-image" style="font-size: 16px">
 
 ## MyBatis工具类SqlSessionUtil的封装
 
@@ -472,7 +472,7 @@ public void testInsertCar(){
 
 mybatis-config.xml和SqlMapper.xml文件可以在IDEA中提前创建好模板，以后通过模板创建配置文件。
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660629382298-df2d0e70-d8ce-4ae6-9f19-e74923adf121.png" width="978" title="" crop="0,0,1,1" id="Qy1Ik" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660629382298-df2d0e70-d8ce-4ae6-9f19-e74923adf121.png" width="978" title="" crop="0,0,1,1" id="Qy1Ik" class="ne-image" style="font-size: 16px">
 
 # 使用MyBatis完成CRUD
 
@@ -593,9 +593,9 @@ SQL语句这样写：
 
 运行程序：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763613779493-46159fd2-448c-4c2e-9006-8037d463e476.png" width="548" title="" crop="0,0,1,1" id="ub489c2b3" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763613779493-46159fd2-448c-4c2e-9006-8037d463e476.png" width="548" title="" crop="0,0,1,1" id="ub489c2b3" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1659666614107-2df4bd58-105b-4b76-881d-e1d19b4d4b98.png" width="537" title="" crop="0,0,1,1" id="uc44a11b1" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1659666614107-2df4bd58-105b-4b76-881d-e1d19b4d4b98.png" width="537" title="" crop="0,0,1,1" id="uc44a11b1" class="ne-image" style="font-size: 16px">
 
 通过测试，看到程序并没有报错。正常执行。不过 #{kk} 的写法导致无法获取到map集合中的数据，最终导致数据库表car_num插入了NULL。
 
@@ -629,9 +629,9 @@ SQL语句做如下修改，这样可以增强程序的可读性：
 
 运行程序，查看数据库表：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1659667098369-a13a16ec-6f02-44f2-85b7-8834b9ca161b.png" width="577" title="" crop="0,0,1,1" id="u51a730e6" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1659667098369-a13a16ec-6f02-44f2-85b7-8834b9ca161b.png" width="577" title="" crop="0,0,1,1" id="u51a730e6" class="ne-image" style="font-size: 16px">
 
-使用Map集合可以传参，那使用**<font style="color:#E8323C;">pojo</font>**（简单普通的java对象）可以完成传参吗？测试一下：
+使用Map集合可以传参，那使用<font style="color:#E8323C;">**pojo**</font>（简单普通的java对象）可以完成传参吗？测试一下：
 
 - 第一步：定义一个pojo类Car，提供相关属性。
 
@@ -685,7 +685,7 @@ public void testInsertCarByPOJO(){
 
 - 运行程序，查看数据库表：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1659668224378-2070e0f4-8252-4978-8204-bb247d172152.png" width="573" title="" crop="0,0,1,1" id="ue5a6a89a" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1659668224378-2070e0f4-8252-4978-8204-bb247d172152.png" width="573" title="" crop="0,0,1,1" id="ue5a6a89a" class="ne-image" style="font-size: 16px">
 
 **<font style="color:#DF2A3F;">直接告诉大家一个结论：</font>**`#{}`**<font style="color:#DF2A3F;">里写什么？</font>**
 
@@ -769,7 +769,7 @@ Java代码如下：
     }
 ```
 
-当然了，如果使用**<font style="color:#E8323C;">map</font>**传数据也是可以的。
+当然了，如果使用<font style="color:#E8323C;">**map**</font>传数据也是可以的。
 
 ## select
 
@@ -824,7 +824,7 @@ public void testSelectCarById(){
 
 运行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763614261881-c9304f9e-7481-43f5-a3b8-8801ce957802.png" width="700" title="" crop="0,0,1,1" id="u69d68059" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763614261881-c9304f9e-7481-43f5-a3b8-8801ce957802.png" width="700" title="" crop="0,0,1,1" id="u69d68059" class="ne-image" style="font-size: 16px">
 
 运行后之前的异常不再出现了，这说明添加了resultType属性之后，解决了之前的异常，可以看出resultType是不能省略的。
 
@@ -851,7 +851,7 @@ Car类的属性名：id, carNum, brand, guidePrice, produceTime, carType
 
 运行结果如下：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1659684140382-c8d05a79-7906-4a8f-8301-3cd8097b3eff.png" width="1338" title="" crop="0,0,1,1" id="u58b08b89" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1659684140382-c8d05a79-7906-4a8f-8301-3cd8097b3eff.png" width="1338" title="" crop="0,0,1,1" id="u58b08b89" class="ne-image" style="font-size: 16px">
 
 通过测试得知，如果当查询结果的字段名和java类的属性名对应不上的话，可以采用as关键字起别名，**<font style="color:#E8323C;">当然还有其它解决方案，我们后面再看</font>**。
 
@@ -962,7 +962,7 @@ public void testNamespace(){
 
 运行结果如下：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763614683732-039827cd-b984-4c65-8ea2-e75b30539e73.png" width="873.6" title="" crop="0,0,1,1" id="u9a827b0e" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763614683732-039827cd-b984-4c65-8ea2-e75b30539e73.png" width="873.6" title="" crop="0,0,1,1" id="u9a827b0e" class="ne-image" style="font-size: 16px">
 
 # MyBatis核心配置文件详解
 
@@ -1000,24 +1000,24 @@ public void testNamespace(){
     - **<font style="color:#E8323C;">JDBC</font>**：MyBatis自己管理事务，**委托给 JDBC Connection**。**<font style="color:#E8323C;">底层原理：事务开启conn.setAutoCommit(false); ...处理业务...事务提交conn.commit(); 如果在集成环境下，例如spring和mybatis集成了，spring使用</font>**`@Transactional` 注解来开启、提交或回滚事务。在这种模式下，`JDBC` 事务管理器配置会被忽略
     - **<font style="color:#E8323C;">MANAGED</font>**：MyBatis不负责管理事务，将事务管理交给其他容器来负责，比如Spring、App Server等。如果没有管理事务的容器，则没有事务。**<font style="color:#E8323C;">没有事务的含义：只要执行一条DML语句，则提交一次</font>**。
 - dataSource：指定数据源
-  - type属性：用来指定具体使用的数据库连接池的策略，可选值包括**<font style="color:#DF2A3F;">3</font>**种情况
+  - type属性：用来指定具体使用的数据库连接池的策略，可选值包括<font style="color:#DF2A3F;">**3**</font>种情况
     - **<font style="color:#E8323C;">UNPOOLED</font>**：采用传统的获取连接的方式，虽然也实现javax.sql.DataSource接口，但是并没有使用池的思想。
       - property可以是：
         - driver 这是 JDBC 驱动的 Java 类全限定名。
         - url 这是数据库的 JDBC URL 地址。
-        - username <font style="color:rgb(64, 64, 64);">登录数据库的用户名</font>。
-        - password <font style="color:rgb(64, 64, 64);">登录数据库的密码。</font>
-        - defaultTransactionIsolationLevel <font style="color:rgb(64, 64, 64);">默认的连接事务隔离级别。</font>
-        - defaultNetworkTimeout **<font style="color:rgb(15, 17, 21);">当执行 SQL 时，等待数据库服务器返回数据的最大时间，超时则抛出异常</font>**<font style="color:rgb(64, 64, 64);">（单位：毫秒）</font>
+        - username 登录数据库的用户名。
+        - password 登录数据库的密码。
+        - defaultTransactionIsolationLevel 默认的连接事务隔离级别。
+        - defaultNetworkTimeout **当执行 SQL 时，等待数据库服务器返回数据的最大时间，超时则抛出异常**（单位：毫秒）
     - **<font style="color:#E8323C;">POOLED</font>**：采用传统的javax.sql.DataSource规范中的连接池，这是mybatis默认自带的连接池，性能一般，开发时用，生产环境下通常使用第三方连接池技术，例如：HikariCP、Druid等。
-      - property可以是（除了包含**<font style="color:#E8323C;">UNPOOLED</font>**<font style="color:rgb(64, 64, 64);">中的之外</font>）：
+      - property可以是（除了包含<font style="color:#E8323C;">**UNPOOLED**</font>中的之外）：
         - poolMaximumActiveConnections **最大活动的连接数量，默认值：10**
-        - poolMaximumIdleConnections **<font style="color:rgb(64, 64, 64);">最大空闲的连接数量。</font>**
-        - <font style="color:rgb(64, 64, 64);">其它....</font>
+        - poolMaximumIdleConnections **最大空闲的连接数量。**
+        - 其它....
     - **<font style="color:#E8323C;">JNDI</font>**：采用服务器提供的JNDI技术实现，来获取DataSource对象，不同的服务器所能拿到DataSource是不一样。如果不是web或者maven的war工程，JNDI是不能使用的。
       - property可以是（<font style="color:#E8323C;">最多只包含以下两个属性</font>）：
-        - initial_context <font style="color:rgb(64, 64, 64);">这个属性用来在 InitialContext 中寻找上下文（即，initialContext.lookup(initial_context)）这是个可选属性，如果忽略，那么将会直接从 InitialContext 中寻找 data_source 属性。</font>
-        - data_source <font style="color:rgb(64, 64, 64);">这是引用数据源实例位置的上下文路径。提供了 initial_context 配置时会在其返回的上下文中进行查找，没有提供时则直接在 InitialContext 中查找。</font>
+        - initial_context 这个属性用来在 InitialContext 中寻找上下文（即，initialContext.lookup(initial_context)）这是个可选属性，如果忽略，那么将会直接从 InitialContext 中寻找 data_source 属性。
+        - data_source 这是引用数据源实例位置的上下文路径。提供了 initial_context 配置时会在其返回的上下文中进行查找，没有提供时则直接在 InitialContext 中查找。
 - mappers：在mappers标签中可以配置多个sql映射文件的路径
 - mapper：配置某个sql映射文件的路径
   - resource属性：使用相对于类路径的资源引用方式
@@ -1170,7 +1170,7 @@ public void testDataSource() throws Exception{
 
 当type是UNPOOLED，控制台输出：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763618272873-466b6161-369f-4c92-9903-8b76c47bb1c7.png" width="685" title="" crop="0,0,1,1" id="ubc3e8407" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763618272873-466b6161-369f-4c92-9903-8b76c47bb1c7.png" width="685" title="" crop="0,0,1,1" id="ubc3e8407" class="ne-image" style="font-size: 16px">
 
 修改配置文件mybatis-config3.xml中的配置：
 
@@ -1180,7 +1180,7 @@ public void testDataSource() throws Exception{
 
 Java测试程序不需要修改，直接执行，看控制台输出：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763618305280-5809c7aa-7532-4725-bb36-80566d08730a.png" width="625" title="" crop="0,0,1,1" id="uf95654dd" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763618305280-5809c7aa-7532-4725-bb36-80566d08730a.png" width="625" title="" crop="0,0,1,1" id="uf95654dd" class="ne-image" style="font-size: 16px">
 
 通过测试得出：UNPOOLED不会使用连接池，每一次都会新建JDBC连接对象。POOLED会使用数据库连接池。【这个连接池是mybatis自己实现的。】
 
@@ -1223,7 +1223,7 @@ poolMaximumActiveConnections：最大的活动的连接数量。默认值10
 
 poolMaximumIdleConnections：最大的空闲连接数量。默认值5
 
-poolMaximumCheckoutTime：**<font style="color:rgb(15, 17, 21);">一个连接被应用程序借走后，最多能用多久，超时则被强制收回</font>**。默认值20秒。
+poolMaximumCheckoutTime：**一个连接被应用程序借走后，最多能用多久，超时则被强制收回**。默认值20秒。
 
 poolTimeToWait：当无法获取到空闲连接时，每隔20秒打印一次日志，避免因代码配置有误，导致傻等。（时长是可以配置的）
 
@@ -1237,7 +1237,7 @@ poolTimeToWait：当无法获取到空闲连接时，每隔20秒打印一次日�
 
 下图是默认配置：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660126871013-88f83ea4-94e9-4088-bdb4-06a4fd73866a.png" width="640" title="" crop="0,0,1,1" id="u3a10ea73" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660126871013-88f83ea4-94e9-4088-bdb4-06a4fd73866a.png" width="640" title="" crop="0,0,1,1" id="u3a10ea73" class="ne-image" style="font-size: 16px">
 
 ## properties
 
@@ -1383,13 +1383,13 @@ mapper标签用来指定SQL映射文件的路径，包含多种指定方式，�
 
 ## 需求描述
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660274775552-da896b17-09dd-455a-899e-eb4f36fc0ced.png" width="497" title="" crop="0,0,1,1" id="ud5c2edc9" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660274775552-da896b17-09dd-455a-899e-eb4f36fc0ced.png" width="497" title="" crop="0,0,1,1" id="ud5c2edc9" class="ne-image" style="font-size: 16px">
 
 ## 数据库表的设计和准备数据
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744114955648-2fc6ec58-392a-40d2-93fa-9a4c5bea8c95.png" width="874" title="" crop="0,0,1,1" id="ue0bb908d" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744114955648-2fc6ec58-392a-40d2-93fa-9a4c5bea8c95.png" width="874" title="" crop="0,0,1,1" id="ue0bb908d" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744114963721-fbaea5cd-e6d4-4ccd-8bd4-cb83081dbc1c.png" width="255" title="" crop="0,0,1,1" id="ud9c3ec95" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744114963721-fbaea5cd-e6d4-4ccd-8bd4-cb83081dbc1c.png" width="255" title="" crop="0,0,1,1" id="ud9c3ec95" class="ne-image" style="font-size: 16px">
 
 ## 实现步骤
 
@@ -1805,11 +1805,11 @@ public class AccountController extends HttpServlet {
 
 启动服务器，打开浏览器，输入地址：`http://localhost:8080/bank`，测试：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660548722867-8ae16c8b-f25c-4fc7-b0bb-8c8f0c5e546a.png" width="360" title="" crop="0,0,1,1" id="ud4e2de74" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660548722867-8ae16c8b-f25c-4fc7-b0bb-8c8f0c5e546a.png" width="360" title="" crop="0,0,1,1" id="ud4e2de74" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660551569099-4d81d8cd-35c5-418f-9de1-74ef8641a59f.png" width="439" title="" crop="0,0,1,1" id="u7667d225" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660551569099-4d81d8cd-35c5-418f-9de1-74ef8641a59f.png" width="439" title="" crop="0,0,1,1" id="u7667d225" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115034289-426c2baa-64d2-4631-b8cb-796ed2cd98bc.png" width="245" title="" crop="0,0,1,1" id="u56c1c7bc" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115034289-426c2baa-64d2-4631-b8cb-796ed2cd98bc.png" width="245" title="" crop="0,0,1,1" id="u56c1c7bc" class="ne-image" style="font-size: 16px">
 
 ## MyBatis对象作用域以及事务问题
 
@@ -1817,15 +1817,15 @@ public class AccountController extends HttpServlet {
 
 **SqlSessionFactoryBuilder**
 
-<font style="color:rgb(51, 51, 51);">这个类可以被实例化、使用和丢弃，一旦创建了 SqlSessionFactory，就不再需要它了。 因此 SqlSessionFactoryBuilder 实例的最佳作用域是方法作用域（也就是局部方法变量）。 你可以重用 SqlSessionFactoryBuilder 来创建多个 SqlSessionFactory 实例，但最好还是不要一直保留着它，以保证所有的 XML 解析资源可以被释放给更重要的事情。</font>
+这个类可以被实例化、使用和丢弃，一旦创建了 SqlSessionFactory，就不再需要它了。 因此 SqlSessionFactoryBuilder 实例的最佳作用域是方法作用域（也就是局部方法变量）。 你可以重用 SqlSessionFactoryBuilder 来创建多个 SqlSessionFactory 实例，但最好还是不要一直保留着它，以保证所有的 XML 解析资源可以被释放给更重要的事情。
 
 **SqlSessionFactory**
 
-<font style="color:rgb(51, 51, 51);">SqlSessionFactory 一旦被创建就应该在应用的运行期间一直存在，没有任何理由丢弃它或重新创建另一个实例。 使用 SqlSessionFactory 的最佳实践是在应用运行期间不要重复创建多次，多次重建 SqlSessionFactory 被视为一种代码“坏习惯”。因此 SqlSessionFactory 的最佳作用域是应用作用域。 有很多方法可以做到，最简单的就是使用单例模式或者静态单例模式。</font>
+SqlSessionFactory 一旦被创建就应该在应用的运行期间一直存在，没有任何理由丢弃它或重新创建另一个实例。 使用 SqlSessionFactory 的最佳实践是在应用运行期间不要重复创建多次，多次重建 SqlSessionFactory 被视为一种代码“坏习惯”。因此 SqlSessionFactory 的最佳作用域是应用作用域。 有很多方法可以做到，最简单的就是使用单例模式或者静态单例模式。
 
 **SqlSession**
 
-<font style="color:rgb(51, 51, 51);">每个线程都应该有它自己的 SqlSession 实例。SqlSession 的实例不是线程安全的，因此是不能被共享的，所以它的最佳的作用域是请求或方法作用域。 绝对不能将 SqlSession 实例的引用放在一个类的静态域，甚至一个类的实例变量也不行。 也绝不能将 SqlSession 实例的引用放在任何类型的托管作用域中，比如 Servlet 框架中的 HttpSession。 如果你现在正在使用一种 Web 框架，考虑将 SqlSession 放在一个和 HTTP 请求相似的作用域中。 换句话说，每次收到 HTTP 请求，就可以打开一个 SqlSession，返回一个响应后，就关闭它。 这个关闭操作很重要，为了确保每次都能执行关闭操作，你应该把这个关闭操作放到 finally 块中。 下面的示例就是一个确保 SqlSession 关闭的标准模式：</font>
+每个线程都应该有它自己的 SqlSession 实例。SqlSession 的实例不是线程安全的，因此是不能被共享的，所以它的最佳的作用域是请求或方法作用域。 绝对不能将 SqlSession 实例的引用放在一个类的静态域，甚至一个类的实例变量也不行。 也绝不能将 SqlSession 实例的引用放在任何类型的托管作用域中，比如 Servlet 框架中的 HttpSession。 如果你现在正在使用一种 Web 框架，考虑将 SqlSession 放在一个和 HTTP 请求相似的作用域中。 换句话说，每次收到 HTTP 请求，就可以打开一个 SqlSession，返回一个响应后，就关闭它。 这个关闭操作很重要，为了确保每次都能执行关闭操作，你应该把这个关闭操作放到 finally 块中。 下面的示例就是一个确保 SqlSession 关闭的标准模式：
 
 ```java
 try (SqlSession session = sqlSessionFactory.openSession()) {
@@ -1885,17 +1885,17 @@ public class AccountServiceImpl implements AccountService {
 
 运行前注意看数据库表中当前的数据：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115056505-7f825472-6106-4df2-9339-24df01e0cbba.png" width="264" title="" crop="0,0,1,1" id="u8bdd838e" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115056505-7f825472-6106-4df2-9339-24df01e0cbba.png" width="264" title="" crop="0,0,1,1" id="u8bdd838e" class="ne-image" style="font-size: 16px">
 
 执行程序：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660552498799-6c617fed-b94e-4e94-a05b-5fe16a97023e.png" width="357" title="" crop="0,0,1,1" id="u612a58c2" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660552498799-6c617fed-b94e-4e94-a05b-5fe16a97023e.png" width="357" title="" crop="0,0,1,1" id="u612a58c2" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660552525960-fb4d555f-09a1-4120-b0b3-73c3eeb2201a.png" width="341" title="" crop="0,0,1,1" id="u8c48ae34" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660552525960-fb4d555f-09a1-4120-b0b3-73c3eeb2201a.png" width="341" title="" crop="0,0,1,1" id="u8c48ae34" class="ne-image" style="font-size: 16px">
 
 再次查看数据库表中的数据：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115075908-7614a3be-762f-47b3-a84b-16b9014c6a33.png" width="275" title="" crop="0,0,1,1" id="u350bb519" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115075908-7614a3be-762f-47b3-a84b-16b9014c6a33.png" width="275" title="" crop="0,0,1,1" id="u350bb519" class="ne-image" style="font-size: 16px">
 
 **<font style="color:#E8323C;">傻眼了吧！！！事务出问题了，转账失败了，钱仍然是少了1万。这是什么原因呢？主要是因为service和dao中使用的SqlSession对象不是同一个。</font>**
 
@@ -2036,35 +2036,35 @@ public class AccountServiceImpl implements AccountService {
 
 当前数据库表中的数据：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115097733-d437fb32-7b6f-4552-a5fb-4d0dbf638dba.png" width="256" title="" crop="0,0,1,1" id="u892836c0" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115097733-d437fb32-7b6f-4552-a5fb-4d0dbf638dba.png" width="256" title="" crop="0,0,1,1" id="u892836c0" class="ne-image" style="font-size: 16px">
 
 再次运行程序：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660552498799-6c617fed-b94e-4e94-a05b-5fe16a97023e.png" width="357" title="" crop="0,0,1,1" id="Bvmrx" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660552498799-6c617fed-b94e-4e94-a05b-5fe16a97023e.png" width="357" title="" crop="0,0,1,1" id="Bvmrx" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660552525960-fb4d555f-09a1-4120-b0b3-73c3eeb2201a.png" width="341" title="" crop="0,0,1,1" id="Wpypf" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660552525960-fb4d555f-09a1-4120-b0b3-73c3eeb2201a.png" width="341" title="" crop="0,0,1,1" id="Wpypf" class="ne-image" style="font-size: 16px">
 
 查看数据库表：没有问题。
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115110613-19091ac3-3f84-4fab-b33c-2a90d3e2c724.png" width="258" title="" crop="0,0,1,1" id="ud02da0c7" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115110613-19091ac3-3f84-4fab-b33c-2a90d3e2c724.png" width="258" title="" crop="0,0,1,1" id="ud02da0c7" class="ne-image" style="font-size: 16px">
 
 再测试转账成功：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660552498799-6c617fed-b94e-4e94-a05b-5fe16a97023e.png" width="357" title="" crop="0,0,1,1" id="F0jzt" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660552498799-6c617fed-b94e-4e94-a05b-5fe16a97023e.png" width="357" title="" crop="0,0,1,1" id="F0jzt" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660551569099-4d81d8cd-35c5-418f-9de1-74ef8641a59f.png" width="439" title="" crop="0,0,1,1" id="v50HW" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660551569099-4d81d8cd-35c5-418f-9de1-74ef8641a59f.png" width="439" title="" crop="0,0,1,1" id="v50HW" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115129291-98045e04-15d5-4e91-b562-d159f1ca75b1.png" width="256" title="" crop="0,0,1,1" id="ud93596cc" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115129291-98045e04-15d5-4e91-b562-d159f1ca75b1.png" width="256" title="" crop="0,0,1,1" id="ud93596cc" class="ne-image" style="font-size: 16px">
 
 如果余额不足呢：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660553844177-0db1b3c9-3663-4a96-abb0-d516f24c36b8.png" width="344" title="" crop="0,0,1,1" id="u8ca8e057" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660553844177-0db1b3c9-3663-4a96-abb0-d516f24c36b8.png" width="344" title="" crop="0,0,1,1" id="u8ca8e057" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660553856988-09e342be-fa3c-4467-9541-d785a08276e9.png" width="371" title="" crop="0,0,1,1" id="u968d681a" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660553856988-09e342be-fa3c-4467-9541-d785a08276e9.png" width="371" title="" crop="0,0,1,1" id="u968d681a" class="ne-image" style="font-size: 16px">
 
 账户的余额依然正常：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115142994-bcedbef1-b9e9-4ac2-aa76-005f8d0655dc.png" width="278" title="" crop="0,0,1,1" id="u2957a715" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115142994-bcedbef1-b9e9-4ac2-aa76-005f8d0655dc.png" width="278" title="" crop="0,0,1,1" id="u2957a715" class="ne-image" style="font-size: 16px">
 
 # MyBatis中接口代理机制及使用
 
@@ -2110,19 +2110,19 @@ AccountDao accountDao = (AccountDao)sqlSession.getMapper(AccountDao.class);
 
 使用以上代码的前提是：**<font style="color:#E8323C;">AccountMapper.xml文件中的namespace必须和dao接口的全限定名称一致，id必须和dao接口中方法名一致。</font>**
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1743664727431-954c376f-2ec6-464c-a449-2bf3d4dcea86.png" width="758" title="" crop="0,0,1,1" id="u3254422e" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1743664727431-954c376f-2ec6-464c-a449-2bf3d4dcea86.png" width="758" title="" crop="0,0,1,1" id="u3254422e" class="ne-image" style="font-size: 16px">
 
 将service中获取dao对象的代码再次修改，如下：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1743664656687-88bdde54-4162-4274-a9b2-e5b887d185d7.png" width="1037" title="" crop="0,0,1,1" id="uc52b60b2" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1743664656687-88bdde54-4162-4274-a9b2-e5b887d185d7.png" width="1037" title="" crop="0,0,1,1" id="uc52b60b2" class="ne-image" style="font-size: 16px">
 
 测试前数据：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660611965066-a4188327-2a59-4125-bd2d-0aa40fb8bf3a.png" width="313" title="" crop="0,0,1,1" id="ub78a5ba5" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660611965066-a4188327-2a59-4125-bd2d-0aa40fb8bf3a.png" width="313" title="" crop="0,0,1,1" id="ub78a5ba5" class="ne-image" style="font-size: 16px">
 
 测试后数据：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115171914-664211b3-d213-48c6-82c3-c4264a004f83.png" width="263" title="" crop="0,0,1,1" id="u92b72c02" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115171914-664211b3-d213-48c6-82c3-c4264a004f83.png" width="263" title="" crop="0,0,1,1" id="u92b72c02" class="ne-image" style="font-size: 16px">
 
 # MyBatis小技巧
 
@@ -2213,7 +2213,7 @@ public class CarMapperTest {
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660617419624-9c151df7-6c1e-469b-8489-2694009e68b6.png" width="1651" title="" crop="0,0,1,1" id="u93c899a2" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660617419624-9c151df7-6c1e-469b-8489-2694009e68b6.png" width="1651" title="" crop="0,0,1,1" id="u93c899a2" class="ne-image" style="font-size: 16px">
 
 通过执行可以清楚的看到，sql语句中是带有 ? 的，这个 ? 就是大家在JDBC中所学的占位符，专门用来接收值的。
 
@@ -2248,11 +2248,11 @@ CarMapper.xml文件修改如下：
 
 再次运行测试程序：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660617746157-bdb389c7-5752-42f7-a023-c0b8792cf604.png" width="1159" title="" crop="0,0,1,1" id="uae71a1bc" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660617746157-bdb389c7-5752-42f7-a023-c0b8792cf604.png" width="1159" title="" crop="0,0,1,1" id="uae71a1bc" class="ne-image" style="font-size: 16px">
 
 出现异常了，这是为什么呢？看看生成的sql语句：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660617813209-5e0d9395-452b-42ed-bee2-816d41f17c30.png" width="1636" title="" crop="0,0,1,1" id="ub9b192c4" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660617813209-5e0d9395-452b-42ed-bee2-816d41f17c30.png" width="1636" title="" crop="0,0,1,1" id="ub9b192c4" class="ne-image" style="font-size: 16px">
 
 很显然，${} 是先进行sql语句的拼接，然后再编译，出现语法错误是正常的，因为 燃油车 是一个字符串，在sql语句中应该添加单引号
 
@@ -2280,7 +2280,7 @@ CarMapper.xml文件修改如下：
 
 再执行测试程序：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660618019174-42718d2b-7cdd-4c70-8a44-055258d5ad29.png" width="1628" title="" crop="0,0,1,1" id="u0dfdb12d" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660618019174-42718d2b-7cdd-4c70-8a44-055258d5ad29.png" width="1628" title="" crop="0,0,1,1" id="u0dfdb12d" class="ne-image" style="font-size: 16px">
 
 通过以上测试，可以看出，对于以上这种需求来说，还是建议使用 #{} 的方式。
 
@@ -2323,7 +2323,7 @@ public void testSelectAllByTableName(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660798482963-16baeed4-cd22-4a0e-a631-6f49ee9f101b.png" width="1455" title="" crop="0,0,1,1" id="u47cf528d" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660798482963-16baeed4-cd22-4a0e-a631-6f49ee9f101b.png" width="1455" title="" crop="0,0,1,1" id="u47cf528d" class="ne-image" style="font-size: 16px">
 
 还有以下这些情况也需要使用`${}`：
 
@@ -2357,7 +2357,7 @@ public void testSelectAllByTableName(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660804562331-8febb980-24d8-4e18-8e4b-6416f28aa251.png" width="1593" title="" crop="0,0,1,1" id="uf8d43918" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660804562331-8febb980-24d8-4e18-8e4b-6416f28aa251.png" width="1593" title="" crop="0,0,1,1" id="uf8d43918" class="ne-image" style="font-size: 16px">
 
 ### 第二种：双引号方式
 
@@ -2372,7 +2372,7 @@ public void testSelectAllByTableName(){
 </select>
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660804873326-12cbff35-f4fe-4019-90a4-7b758d7c4e39.png" width="1536" title="" crop="0,0,1,1" id="u59605cbd" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660804873326-12cbff35-f4fe-4019-90a4-7b758d7c4e39.png" width="1536" title="" crop="0,0,1,1" id="u59605cbd" class="ne-image" style="font-size: 16px">
 
 ## typeAliases
 
@@ -2914,7 +2914,7 @@ public void testSelectByNameAndSex(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660641021618-ce3ac913-fe10-45f5-9760-3e51ef2dd864.png" width="1632" title="" crop="0,0,1,1" id="u010e6c4a" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660641021618-ce3ac913-fe10-45f5-9760-3e51ef2dd864.png" width="1632" title="" crop="0,0,1,1" id="u010e6c4a" class="ne-image" style="font-size: 16px">
 
 异常信息描述了：name参数找不到，可用的参数包括[arg1, arg0, param1, param2]
 
@@ -2929,7 +2929,7 @@ public void testSelectByNameAndSex(){
 
 运行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660641284279-64a7312a-d036-448f-aaef-a1bcde8abba2.png" width="939" title="" crop="0,0,1,1" id="u6acb95a5" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660641284279-64a7312a-d036-448f-aaef-a1bcde8abba2.png" width="939" title="" crop="0,0,1,1" id="u6acb95a5" class="ne-image" style="font-size: 16px">
 
 再次尝试修改StudentMapper.xml文件
 
@@ -2962,7 +2962,7 @@ map.put("param2", sex);
 // 其本质就是#{map集合的key}
 ```
 
-注意：**<font style="color:#E8323C;">使用mybatis</font>\*\***<font style="color:#E8323C;">3.4.2之前的版本时：要用#{0}和#{1}这种形式。</font>\*\*
+注意：**<font style="color:#E8323C;">使用mybatis</font><font style="color:#E8323C;">3.4.2之前的版本时：要用#{0}和#{1}这种形式。</font>**
 
 ## @Param注解（命名参数）
 
@@ -3066,7 +3066,7 @@ public class CarMapperTest {
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115425100-cd5032eb-c9ca-4e67-96fc-b9abac43cdb6.png" width="1106" title="" crop="0,0,1,1" id="ueb822d1d" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115425100-cd5032eb-c9ca-4e67-96fc-b9abac43cdb6.png" width="1106" title="" crop="0,0,1,1" id="ueb822d1d" class="ne-image" style="font-size: 16px">
 
 **<font style="color:#E8323C;">查询结果是一条的话可以使用List集合接收吗？当然可以</font>**。
 
@@ -3095,7 +3095,7 @@ public void testSelectByIdToList(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763624554278-01ed8750-bbb7-4223-8871-10b722c5f240.png" width="1089" title="" crop="0,0,1,1" id="u37681ad6" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763624554278-01ed8750-bbb7-4223-8871-10b722c5f240.png" width="1089" title="" crop="0,0,1,1" id="u37681ad6" class="ne-image" style="font-size: 16px">
 
 ## 返回 `List<Car>`
 
@@ -3128,7 +3128,7 @@ public void testSelectAll(){
 }
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115501196-87f1693e-c891-457d-b624-0f93603dad9e.png" width="1034" title="" crop="0,0,1,1" id="u2f87f573" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115501196-87f1693e-c891-457d-b624-0f93603dad9e.png" width="1034" title="" crop="0,0,1,1" id="u2f87f573" class="ne-image" style="font-size: 16px">
 
 如果返回多条记录，采用单个实体类接收会怎样？
 
@@ -3157,7 +3157,7 @@ public void testSelectAll2(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744115521183-c831fb74-62be-4bad-863c-29133cb8512d.png" width="1318" title="" crop="0,0,1,1" id="u28d08074" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744115521183-c831fb74-62be-4bad-863c-29133cb8512d.png" width="1318" title="" crop="0,0,1,1" id="u28d08074" class="ne-image" style="font-size: 16px">
 
 ## 返回Map
 
@@ -3165,7 +3165,7 @@ public void testSelectAll2(){
 
 查询如果可以保证只有一条数据，则返回一个Map集合即可。
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660816974662-61782965-88fb-466e-a5ff-5af02ab614df.png" width="257" title="" crop="0,0,1,1" id="ua0cc183c" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660816974662-61782965-88fb-466e-a5ff-5af02ab614df.png" width="257" title="" crop="0,0,1,1" id="ua0cc183c" class="ne-image" style="font-size: 16px">
 
 ```java
 /**
@@ -3195,7 +3195,7 @@ public void testSelectByIdRetMap(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1763624658443-8f8d0574-745d-46f7-9a9b-ece7abb9f923.png" width="1015" title="" crop="0,0,1,1" id="u36c28156" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1763624658443-8f8d0574-745d-46f7-9a9b-ece7abb9f923.png" width="1015" title="" crop="0,0,1,1" id="u36c28156" class="ne-image" style="font-size: 16px">
 
 当然，如果返回一个Map集合，可以将Map集合放到List集合中吗？当然可以，这里就不再测试了。
 
@@ -3205,7 +3205,7 @@ public void testSelectByIdRetMap(){
 
 查询结果条数大于等于1条数据，则可以返回一个存储Map集合的List集合。`List<Map>` 等同于 `List<Car>`
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660817896708-0f3d0b44-4a0e-40ed-b609-b4d0e5fce1b6.png" width="529" title="" crop="0,0,1,1" id="u002d3df7" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660817896708-0f3d0b44-4a0e-40ed-b609-b4d0e5fce1b6.png" width="529" title="" crop="0,0,1,1" id="u002d3df7" class="ne-image" style="font-size: 16px">
 
 ```java
 /**
@@ -3246,7 +3246,7 @@ public void testSelectAllRetListMap(){
 
 **<font style="color:#E8323C;">拿Car的id做key，以后取出对应的Map集合时更方便。</font>**
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660818043977-d5c56423-c5db-43ca-9c0c-eaa3f22a8f21.png" width="823" title="" crop="0,0,1,1" id="u78390170" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660818043977-d5c56423-c5db-43ca-9c0c-eaa3f22a8f21.png" width="823" title="" crop="0,0,1,1" id="u78390170" class="ne-image" style="font-size: 16px">
 
 ```java
 /**
@@ -3423,7 +3423,7 @@ public void testSelectTotal(){
 
 - 批量删除
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660799087155-ec264d4c-cafa-458d-85b9-f18b4c34bafd.png" width="228" title="" crop="0,0,1,1" id="M0sWt" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660799087155-ec264d4c-cafa-458d-85b9-f18b4c34bafd.png" width="228" title="" crop="0,0,1,1" id="M0sWt" class="ne-image" style="font-size: 16px">
 
 ```sql
 delete from t_car where id in(1,2,3,4,5,6,......这里的值是动态的，根据用户选择的id不同，值是不同的);
@@ -3431,7 +3431,7 @@ delete from t_car where id in(1,2,3,4,5,6,......这里的值是动态的，根�
 
 - 多条件查询
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660876082121-d5ea8e08-e642-4716-b201-79cfe3849624.png" width="899" title="" crop="0,0,1,1" id="u0bdabd59" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660876082121-d5ea8e08-e642-4716-b201-79cfe3849624.png" width="899" title="" crop="0,0,1,1" id="u0bdabd59" class="ne-image" style="font-size: 16px">
 
 ```sql
 select * from t_car where brand like '丰田%' and guide_price > 30 and .....;
@@ -3515,7 +3515,7 @@ public class CarMapperTest {
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660889544842-34404e94-66f2-48e5-b58a-784d6b91ee27.png" width="1045" title="" crop="0,0,1,1" id="u8786f053" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660889544842-34404e94-66f2-48e5-b58a-784d6b91ee27.png" width="1045" title="" crop="0,0,1,1" id="u8786f053" class="ne-image" style="font-size: 16px">
 
 如果第一个条件为空，剩下两个条件不为空，会是怎样呢？
 
@@ -3525,17 +3525,17 @@ List<Car> cars = mapper.selectByMultiCondition("", 20.0, "燃油车");
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660889738193-d5023b6c-13a9-447f-a128-45b36663c8f1.png" width="939" title="" crop="0,0,1,1" id="u6734899c" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660889738193-d5023b6c-13a9-447f-a128-45b36663c8f1.png" width="939" title="" crop="0,0,1,1" id="u6734899c" class="ne-image" style="font-size: 16px">
 
 报错了，SQL语法有问题，where后面出现了and。这该怎么解决呢？
 
 - 可以where后面添加一个恒成立的条件。
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660889965103-5e519823-a741-4ebf-b930-e10ffc9a4129.png" width="715" title="" crop="0,0,1,1" id="u324b967e" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660889965103-5e519823-a741-4ebf-b930-e10ffc9a4129.png" width="715" title="" crop="0,0,1,1" id="u324b967e" class="ne-image" style="font-size: 16px">
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660890083737-c8716d78-9e2d-4a22-bf56-12ff94b688f5.png" width="978" title="" crop="0,0,1,1" id="u65bc1f9c" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660890083737-c8716d78-9e2d-4a22-bf56-12ff94b688f5.png" width="978" title="" crop="0,0,1,1" id="u65bc1f9c" class="ne-image" style="font-size: 16px">
 
 如果三个条件都是空，有影响吗？
 
@@ -3545,7 +3545,7 @@ List<Car> cars = mapper.selectByMultiCondition("", null, "");
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660890238928-6f889bdf-9702-4cd7-a0ef-b875977f42f9.png" width="637" title="" crop="0,0,1,1" id="u2f20b163" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660890238928-6f889bdf-9702-4cd7-a0ef-b875977f42f9.png" width="637" title="" crop="0,0,1,1" id="u2f20b163" class="ne-image" style="font-size: 16px">
 
 三个条件都不为空呢？
 
@@ -3555,14 +3555,14 @@ List<Car> cars = mapper.selectByMultiCondition("丰田", 20.0, "燃油车");
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660890374052-89bc29a1-3aeb-4941-b33f-fbbbe4fbbd39.png" width="1029" title="" crop="0,0,1,1" id="u43c138d5" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660890374052-89bc29a1-3aeb-4941-b33f-fbbbe4fbbd39.png" width="1029" title="" crop="0,0,1,1" id="u43c138d5" class="ne-image" style="font-size: 16px">
 
 ## where标签
 
 where标签的作用：让where子句更加动态智能。
 
 - 所有条件都为空时，where标签保证不会生成where子句。
-- 自动去除某些条件**<font style="color:#E8323C;">前面</font>**多余的and或or。
+- 自动去除某些条件<font style="color:#E8323C;">**前面**</font>多余的and或or。
 
 继续使用if标签中的需求。
 
@@ -3605,7 +3605,7 @@ public void testSelectByMultiConditionWithWhere(){
 
 运行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660891031758-ce20585a-6bad-452e-b186-09cf465fecc6.png" width="993" title="" crop="0,0,1,1" id="u3a631133" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660891031758-ce20585a-6bad-452e-b186-09cf465fecc6.png" width="993" title="" crop="0,0,1,1" id="u3a631133" class="ne-image" style="font-size: 16px">
 
 如果所有条件都是空呢？
 
@@ -3615,7 +3615,7 @@ List<Car> cars = mapper.selectByMultiConditionWithWhere("", null, "");
 
 运行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660891127310-9847b1b5-2bf4-42f9-8e73-38b051b398de.png" width="492" title="" crop="0,0,1,1" id="uf1c80e5e" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660891127310-9847b1b5-2bf4-42f9-8e73-38b051b398de.png" width="492" title="" crop="0,0,1,1" id="uf1c80e5e" class="ne-image" style="font-size: 16px">
 
 它可以自动去掉前面多余的and，那可以自动去掉前面多余的or吗？
 
@@ -3642,7 +3642,7 @@ List<Car> cars = mapper.selectByMultiConditionWithWhere("丰田", 20.0, "燃油�
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660891540196-f2e055dd-74a7-40f9-a883-c78a5e2d28b7.png" width="864" title="" crop="0,0,1,1" id="ufa8c9cb8" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660891540196-f2e055dd-74a7-40f9-a883-c78a5e2d28b7.png" width="864" title="" crop="0,0,1,1" id="ufa8c9cb8" class="ne-image" style="font-size: 16px">
 
 它可以自动去掉前面多余的and，那可以自动去掉后面多余的and吗？
 
@@ -3670,7 +3670,7 @@ List<Car> cars = mapper.selectByMultiConditionWithWhere("丰田", 20.0, "");
 
 运行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660891786608-272a3ab9-96f8-42bc-b5df-4d275cfe9cfe.png" width="946" title="" crop="0,0,1,1" id="u22f88380" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660891786608-272a3ab9-96f8-42bc-b5df-4d275cfe9cfe.png" width="946" title="" crop="0,0,1,1" id="u22f88380" class="ne-image" style="font-size: 16px">
 
 很显然，后面多余的and是不会被去除的。
 
@@ -3678,10 +3678,10 @@ List<Car> cars = mapper.selectByMultiConditionWithWhere("丰田", 20.0, "");
 
 trim标签的属性：
 
-- prefix：在trim标签中的语句前**<font style="color:#E8323C;">添加</font>**内容
-- suffix：在trim标签中的语句后**<font style="color:#E8323C;">添加</font>**内容
-- prefixOverrides：前缀**<font style="color:#E8323C;">覆盖掉（去掉）</font>**
-- suffixOverrides：后缀**<font style="color:#E8323C;">覆盖掉（去掉）</font>**
+- prefix：在trim标签中的语句前<font style="color:#E8323C;">**添加**</font>内容
+- suffix：在trim标签中的语句后<font style="color:#E8323C;">**添加**</font>内容
+- prefixOverrides：前缀<font style="color:#E8323C;">**覆盖掉（去掉）**</font>
+- suffixOverrides：后缀<font style="color:#E8323C;">**覆盖掉（去掉）**</font>
 
 ```java
 /**
@@ -3720,7 +3720,7 @@ public void testSelectByMultiConditionWithTrim(){
 }
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660894051788-34d9dd44-612e-424e-bf0a-143bea4b36bd.png" width="935" title="" crop="0,0,1,1" id="u35710fde" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660894051788-34d9dd44-612e-424e-bf0a-143bea4b36bd.png" width="935" title="" crop="0,0,1,1" id="u35710fde" class="ne-image" style="font-size: 16px">
 
 如果所有条件为空，where会被加上吗？
 
@@ -3730,7 +3730,7 @@ List<Car> cars = mapper.selectByMultiConditionWithTrim("", null, "");
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660894220001-e789ea6b-a219-4f3d-8670-b9612d1d8274.png" width="448" title="" crop="0,0,1,1" id="u521fe703" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660894220001-e789ea6b-a219-4f3d-8670-b9612d1d8274.png" width="448" title="" crop="0,0,1,1" id="u521fe703" class="ne-image" style="font-size: 16px">
 
 ## set标签
 
@@ -3774,7 +3774,7 @@ public void testUpdateWithSet(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660895330743-edd9f2e6-8cd0-4cbe-9c73-adf009466e38.png" width="912" title="" crop="0,0,1,1" id="uc47ae5d4" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660895330743-edd9f2e6-8cd0-4cbe-9c73-adf009466e38.png" width="912" title="" crop="0,0,1,1" id="uc47ae5d4" class="ne-image" style="font-size: 16px">
 
 ## choose when otherwise
 
@@ -3851,7 +3851,7 @@ public void testSelectWithChoose(){
 }
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660896273467-9ba1d6c0-9cc3-4deb-92e5-0f54b4ade614.png" width="701" title="" crop="0,0,1,1" id="ube619424" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660896273467-9ba1d6c0-9cc3-4deb-92e5-0f54b4ade614.png" width="701" title="" crop="0,0,1,1" id="ube619424" class="ne-image" style="font-size: 16px">
 
 ## foreach标签
 
@@ -3910,7 +3910,7 @@ public void testDeleteBatchByForeach(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660899240200-ab225394-27f1-4ec1-94e0-b2b3d3a9b16e.png" width="732" title="" crop="0,0,1,1" id="u4a8e11cf" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660899240200-ab225394-27f1-4ec1-94e0-b2b3d3a9b16e.png" width="732" title="" crop="0,0,1,1" id="u4a8e11cf" class="ne-image" style="font-size: 16px">
 
 - 用or来删除
 
@@ -3944,7 +3944,7 @@ public void testDeleteBatchByForeach2(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660899667194-f150bf6b-b54f-432a-8455-4c819bac0c58.png" width="656" title="" crop="0,0,1,1" id="u2f11d6a0" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660899667194-f150bf6b-b54f-432a-8455-4c819bac0c58.png" width="656" title="" crop="0,0,1,1" id="u2f11d6a0" class="ne-image" style="font-size: 16px">
 
 ### 批量添加
 
@@ -3982,7 +3982,7 @@ public void testInsertBatchByForeach(){
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1660900226070-90533bde-4129-49b5-9fa7-639aa07c3b03.png" width="926" title="" crop="0,0,1,1" id="u5ac82100" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1660900226070-90533bde-4129-49b5-9fa7-639aa07c3b03.png" width="926" title="" crop="0,0,1,1" id="u5ac82100" class="ne-image" style="font-size: 16px">
 
 ## sql标签与include标签
 
@@ -4039,9 +4039,9 @@ select * from t_clazz;
 select * from t_student;
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661132819754-23adfa1c-b325-41bc-8520-0355fe4c41cc.png" width="387" title="" crop="0,0,1,1" id="u354c9ec4" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661132819754-23adfa1c-b325-41bc-8520-0355fe4c41cc.png" width="387" title="" crop="0,0,1,1" id="u354c9ec4" class="ne-image" style="font-size: 16px">
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661132610940-7d55793b-df68-48f4-924f-99db58220da9.png" width="365" title="" crop="0,0,1,1" id="ue5841f5d" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661132610940-7d55793b-df68-48f4-924f-99db58220da9.png" width="365" title="" crop="0,0,1,1" id="ue5841f5d" class="ne-image" style="font-size: 16px">
 
 创建pojo：Student、Clazz
 
@@ -4190,7 +4190,7 @@ public class StudentMapperTest {
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661134833921-9452c17c-3461-4c7f-8807-55aa3e089506.png" width="1144" title="" crop="0,0,1,1" id="ub5b1bbf4" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661134833921-9452c17c-3461-4c7f-8807-55aa3e089506.png" width="1144" title="" crop="0,0,1,1" id="ub5b1bbf4" class="ne-image" style="font-size: 16px">
 
 ### 第二种方式：association
 
@@ -4271,7 +4271,7 @@ public interface ClazzMapper {
 
 执行结果，可以很明显看到先后有两条sql语句执行：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661151746372-e3c91810-bb5f-4308-8dd5-e421e11bff50.png" width="760" title="" crop="0,0,1,1" id="u754eeb0e" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661151746372-e3c91810-bb5f-4308-8dd5-e421e11bff50.png" width="760" title="" crop="0,0,1,1" id="u754eeb0e" class="ne-image" style="font-size: 16px">
 
 分步优点：
 
@@ -4311,7 +4311,7 @@ public class StudentMapperTest {
 }
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661151882965-633f8039-c309-4657-8ed1-44f836d5b1e4.png" width="797" title="" crop="0,0,1,1" id="u116285c4" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661151882965-633f8039-c309-4657-8ed1-44f836d5b1e4.png" width="797" title="" crop="0,0,1,1" id="u116285c4" class="ne-image" style="font-size: 16px">
 
 如果后续需要使用到学生所在班级的名称，这个时候才会执行关联的sql语句，修改测试程序：
 
@@ -4332,13 +4332,13 @@ public class StudentMapperTest {
 }
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661151926961-a0affa2d-2d89-4b67-8cc0-bf8604ded4fc.png" width="778" title="" crop="0,0,1,1" id="ub355c610" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661151926961-a0affa2d-2d89-4b67-8cc0-bf8604ded4fc.png" width="778" title="" crop="0,0,1,1" id="ub355c610" class="ne-image" style="font-size: 16px">
 
 通过以上的执行结果可以看到，只有当使用到班级名称之后，才会执行关联的sql语句，这就是延迟加载。
 
 在mybatis中如何开启全局的延迟加载呢？需要setting配置，如下：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661136161612-a7c3cc7f-fe89-4245-a297-1572d8384566.png" width="1505" title="" crop="0,0,1,1" id="ued68a328" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661136161612-a7c3cc7f-fe89-4245-a297-1572d8384566.png" width="1505" title="" crop="0,0,1,1" id="ued68a328" class="ne-image" style="font-size: 16px">
 
 ```xml
 <settings>
@@ -4367,7 +4367,7 @@ public class StudentMapperTest {
 }
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661151954051-4b5b94f7-a69d-4d21-b220-1a840862fb85.png" width="778" title="" crop="0,0,1,1" id="uae4f54af" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661151954051-4b5b94f7-a69d-4d21-b220-1a840862fb85.png" width="778" title="" crop="0,0,1,1" id="uae4f54af" class="ne-image" style="font-size: 16px">
 
 通过以上的测试可以看出，我们已经开启了全局延迟加载策略。
 
@@ -4384,7 +4384,7 @@ public class StudentMapperTest {
 </resultMap>
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661151998854-a31c19fb-0af9-4d69-894d-e8086d9c0333.png" width="767" title="" crop="0,0,1,1" id="u793a89fc" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661151998854-a31c19fb-0af9-4d69-894d-e8086d9c0333.png" width="767" title="" crop="0,0,1,1" id="u793a89fc" class="ne-image" style="font-size: 16px">
 
 这样的话，针对某个特定的sql，你就关闭了延迟加载机制。
 
@@ -4480,7 +4480,7 @@ public class ClazzMapperTest {
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661149977323-90515301-4b5b-4e3e-a17f-04d5473766e7.png" width="1629" title="" crop="0,0,1,1" id="uf885a23f" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661149977323-90515301-4b5b-4e3e-a17f-04d5473766e7.png" width="1629" title="" crop="0,0,1,1" id="uf885a23f" class="ne-image" style="font-size: 16px">
 
 ### 第二种方式：分步查询
 
@@ -4519,14 +4519,14 @@ List<Student> selectByCid(Integer cid);
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661151398803-0c0e196e-6c0a-42fb-b9ee-abd42fea2026.png" width="1639" title="" crop="0,0,1,1" id="u219ee5d5" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661151398803-0c0e196e-6c0a-42fb-b9ee-abd42fea2026.png" width="1639" title="" crop="0,0,1,1" id="u219ee5d5" class="ne-image" style="font-size: 16px">
 
 ## 一对多延迟加载
 
 一对多延迟加载机制和多对一是一样的。同样是通过两种方式：
 
 - 第一种：fetchType="lazy"
-- 第二种：修改全局的配置setting，**<font style="color:#E8323C;">lazyLoadingEnabled=true，</font>**如果开启全局延迟加载，想让某个sql不使用延迟加载：fetchType="eager"
+- 第二种：修改全局的配置setting，<font style="color:#E8323C;">**lazyLoadingEnabled=true，**</font>如果开启全局延迟加载，想让某个sql不使用延迟加载：fetchType="eager"
 
 # MyBatis的缓存
 
@@ -4540,7 +4540,7 @@ mybatis缓存包括：
 
 - 一级缓存：将查询到的数据存储到SqlSession中。
 - 二级缓存：将查询到的数据存储到SqlSessionFactory中。
-- 或者集成其它第三方的缓存：比如EhCache【Java语言开发的】、Memcache【C语言开发的】、**<font style="color:#DF2A3F;">Redis【C语言开发的】</font>**等。
+- 或者集成其它第三方的缓存：比如EhCache【Java语言开发的】、Memcache【C语言开发的】、<font style="color:#DF2A3F;">**Redis【C语言开发的】**</font>等。
 
 **<font style="color:#F5222D;">缓存只针对于DQL语句，也就是说缓存机制只对应select语句。</font>**
 
@@ -4631,7 +4631,7 @@ public class CarMapperTest {
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661154607492-3eba8947-5dda-4562-b156-2d3fe63b12a0.png" width="1092" title="" crop="0,0,1,1" id="u974ece84" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661154607492-3eba8947-5dda-4562-b156-2d3fe63b12a0.png" width="1092" title="" crop="0,0,1,1" id="u974ece84" class="ne-image" style="font-size: 16px">
 
 **什么情况下不走缓存？**
 
@@ -4661,11 +4661,11 @@ void insertAccount();
 </insert>
 ```
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661155578490-1b1d260d-991a-44ef-8c94-ba68796c7f03.png" width="1133" title="" crop="0,0,1,1" id="ua9306740" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661155578490-1b1d260d-991a-44ef-8c94-ba68796c7f03.png" width="1133" title="" crop="0,0,1,1" id="ua9306740" class="ne-image" style="font-size: 16px">
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661155640234-bdba6b74-80cf-4604-8185-fd504994150d.png" width="1047" title="" crop="0,0,1,1" id="u7ceb82d2" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661155640234-bdba6b74-80cf-4604-8185-fd504994150d.png" width="1047" title="" crop="0,0,1,1" id="u7ceb82d2" class="ne-image" style="font-size: 16px">
 
 ## 二级缓存
 
@@ -4718,13 +4718,13 @@ public void testSelectById2() throws Exception{
 
 **二级缓存的相关配置：**
 
-<img src="https://cdn.nlark.com/yuque/0/2025/png/21376908/1744116030939-281c681f-ee97-44cf-afc8-8dec16861edd.png" width="387" title="" crop="0,0,1,1" id="u582c69c2" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1744116030939-281c681f-ee97-44cf-afc8-8dec16861edd.png" width="387" title="" crop="0,0,1,1" id="u582c69c2" class="ne-image" style="font-size: 16px">
 
 1. eviction：指定从缓存中移除<font style="color:#DF2A3F;">某个对象的淘汰算法</font>。默认采用LRU策略。
    1. LRU：Least Recently Used。最近最少使用。优先淘汰在间隔时间内使用频率最低的对象。(其实还有一种淘汰算法LFU，最不常用。)
    2. FIFO：First In First Out。一种先进先出的数据缓存器。先进入二级缓存的对象最先被淘汰。
-   3. SOFT：软引用（<font style="color:rgb(15, 17, 21);">内存不够时，垃圾回收器</font>**<font style="color:rgb(15, 17, 21);">才会</font>**<font style="color:rgb(15, 17, 21);">回收它。</font>）。淘汰软引用指向的对象。具体算法和JVM的垃圾回收算法有关。
-   4. WEAK：弱引用（<font style="color:rgb(15, 17, 21);">只要垃圾回收器一工作，</font>**<font style="color:rgb(15, 17, 21);">立刻</font>**<font style="color:rgb(15, 17, 21);">回收它</font>）。淘汰弱引用指向的对象。具体算法和JVM的垃圾回收算法有关。
+   3. SOFT：软引用（内存不够时，垃圾回收器**才会**回收它。）。淘汰软引用指向的对象。具体算法和JVM的垃圾回收算法有关。
+   4. WEAK：弱引用（只要垃圾回收器一工作，**立刻**回收它）。淘汰弱引用指向的对象。具体算法和JVM的垃圾回收算法有关。
 2. flushInterval：
    1. 二级缓存的刷新时间间隔。单位毫秒。如果没有设置。就代表不刷新缓存，只要内存足够大，一直会向二级缓存中缓存数据。除非执行了增删改。
 3. readOnly：
@@ -4854,7 +4854,7 @@ public void testSelectById2() throws Exception{
 
 ### 第四步：运行插件
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661220807303-79730f99-9a3c-4394-a29f-910eccd698cc.png" width="521" title="" crop="0,0,1,1" id="RBX4s" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661220807303-79730f99-9a3c-4394-a29f-910eccd698cc.png" width="521" title="" crop="0,0,1,1" id="RBX4s" class="ne-image" style="font-size: 16px">
 
 ## 测试逆向工程生成的是否好用
 
@@ -5041,7 +5041,7 @@ public class PageTest {
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661239750003-ff5657d8-9d9a-4c96-b908-eb5a644525bd.png" width="1075" title="" crop="0,0,1,1" id="uee073f3b" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661239750003-ff5657d8-9d9a-4c96-b908-eb5a644525bd.png" width="1075" title="" crop="0,0,1,1" id="uee073f3b" class="ne-image" style="font-size: 16px">
 
 获取数据不难，难的是获取分页相关的数据比较难。可以借助mybatis的PageHelper插件。
 
@@ -5133,11 +5133,11 @@ mybatis中也提供了注解式开发方式，采用注解可以减少Sql映射�
 
 官方是这么说的：
 
-> <font style="color:rgb(51, 51, 51);">使用注解来映射简单语句会使代码显得更加简洁，但对于稍微复杂一点的语句，Java 注解不仅力不从心，还会让你本就复杂的 SQL 语句更加混乱不堪。 因此，如果你需要做一些很复杂的操作，最好用 XML 来映射语句。</font>
+> 使用注解来映射简单语句会使代码显得更加简洁，但对于稍微复杂一点的语句，Java 注解不仅力不从心，还会让你本就复杂的 SQL 语句更加混乱不堪。 因此，如果你需要做一些很复杂的操作，最好用 XML 来映射语句。
 
-<font style="color:rgb(51, 51, 51);">使用注解编写复杂的SQL是这样的：</font>
+使用注解编写复杂的SQL是这样的：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661243511174-55bc0ee4-9561-448d-ad21-f02591d88798.png" width="572" title="" crop="0,0,1,1" id="u8da4b2f4" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661243511174-55bc0ee4-9561-448d-ad21-f02591d88798.png" width="572" title="" crop="0,0,1,1" id="u8da4b2f4" class="ne-image" style="font-size: 16px">
 
 原则：简单sql可以注解。复杂sql使用xml。
 
@@ -5263,4 +5263,4 @@ public void testSelectById() throws Exception{
 
 执行结果：
 
-<img src="https://cdn.nlark.com/yuque/0/2022/png/21376908/1661245790082-b0ae21de-bdc7-41ba-a937-31bad62d1ade.png" width="1045" title="" crop="0,0,1,1" id="u5ce27a82" class="ne-image" style="font-size: 16px">
+<img src="/images/mybatis/1661245790082-b0ae21de-bdc7-41ba-a937-31bad62d1ade.png" width="1045" title="" crop="0,0,1,1" id="u5ce27a82" class="ne-image" style="font-size: 16px">

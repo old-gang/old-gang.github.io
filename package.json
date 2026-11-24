@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "vitepress dev docs --host --open",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "deploy": "bash deploy.sh",
+    "export:images": "node scripts/export-images.mjs"
   }
 }

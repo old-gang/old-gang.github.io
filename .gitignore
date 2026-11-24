@@ -3,3 +3,7 @@ docs/.vitepress/dist
 docs/.vitepress/cache
 .DS_Store
 *.log
+
+# 本地部署配置，含服务器地址等信息，不入库
+deploy*
+deploy.sh
